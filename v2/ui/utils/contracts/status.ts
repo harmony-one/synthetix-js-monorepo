@@ -3,7 +3,7 @@ import {
   name as SystemStatusMainnet,
   address as SystemStatusAddressMainnet,
   abi as SystemStatusAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SystemStatus';
+} from '../../contracts/build/mainnet/deployment/SystemStatus';
 import {
   name as SystemStatusMainnetOvm,
   address as SystemStatusAddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as DappMaintenanceMainnet,
   address as DappMaintenanceAddressMainnet,
   abi as DappMaintenanceAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/DappMaintenance';
+} from '../../contracts/build/mainnet/deployment/DappMaintenance';
 import {
   name as DappMaintenanceMainnetOvm,
   address as DappMaintenanceAddressMainnetOvm,

@@ -3,7 +3,7 @@ import {
   name as RewardEscrowV2Mainnet,
   address as RewardEscrowV2AddressMainnet,
   abi as RewardEscrowV2AbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/RewardEscrowV2';
+} from '../../contracts/build/mainnet/deployment/RewardEscrowV2';
 import {
   name as RewardEscrowV2MainnetOvm,
   address as RewardEscrowV2AddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as EscrowCheckerMainnet,
   address as EscrowCheckerAddressMainnet,
   abi as EscrowCheckerAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/EscrowChecker';
+} from '../../contracts/build/mainnet/deployment/EscrowChecker';
 import {
   name as EscrowCheckerMainnetOvm,
   address as EscrowCheckerAddressMainnetOvm,
@@ -27,7 +27,7 @@ import {
   name as SynthetixEscrowMainnet,
   address as SynthetixEscrowAddressMainnet,
   abi as SynthetixEscrowAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthetixEscrow';
+} from '../../contracts/build/mainnet/deployment/SynthetixEscrow';
 import {
   name as SynthetixEscrowMainnetOvm,
   address as SynthetixEscrowAddressMainnetOvm,

@@ -3,7 +3,7 @@ import {
   name as LiquidatorMainnet,
   address as LiquidatorAddressMainnet,
   abi as LiquidatorAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/Liquidator';
+} from '../../contracts/build/mainnet/deployment/Liquidator';
 import {
   name as LiquidatorMainnetOvm,
   address as LiquidatorAddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as LiquidatorRewardsMainnet,
   address as LiquidatorRewardsAddressMainnet,
   abi as LiquidatorRewardsAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/LiquidatorRewards';
+} from '../../contracts/build/mainnet/deployment/LiquidatorRewards';
 import {
   name as LiquidatorRewardsMainnetOvm,
   address as LiquidatorRewardsAddressMainnetOvm,
