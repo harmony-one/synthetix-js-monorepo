@@ -156,6 +156,12 @@ export const NavigationUI = ({
                   )}
                 </MenuButton>
                 <MenuList>
+                  <MenuItem onClick={() => switchNetwork(NetworkIdByName.harmony)}>
+                    <EthereumIcon />
+                    <Text variant="nav" ml={2}>
+                      Harmony
+                    </Text>
+                  </MenuItem>
                   <MenuItem onClick={() => switchNetwork(NetworkIdByName.mainnet)}>
                     <EthereumIcon />
                     <Text variant="nav" ml={2}>

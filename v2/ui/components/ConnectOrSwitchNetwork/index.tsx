@@ -19,6 +19,16 @@ const ConnectOrSwitchNetwork: React.FC = () => {
             variant="primary"
             size="lg"
             onClick={() => {
+              // @ts-ignore
+              switchNetwork(NetworkIdByName['harmony']);
+            }}
+          >
+            Harmony
+          </StyledCTA>
+          <StyledCTA
+            variant="primary"
+            size="lg"
+            onClick={() => {
               switchNetwork(NetworkIdByName['mainnet']);
             }}
           >
