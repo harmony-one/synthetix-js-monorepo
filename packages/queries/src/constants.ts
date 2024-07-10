@@ -98,4 +98,11 @@ export const DEFAULT_SUBGRAPH_ENDPOINTS: { [networkId: number]: SubgraphEndpoint
     issuance: 'https://api.thegraph.com/subgraphs/name/synthetixio-team/optimism-kovan-issuance',
     subgraph: 'https://api.thegraph.com/subgraphs/name/synthetixio-team/optimism-kovan-main',
   },
+  // TODO: deploy harmony subgraphs
+  1666600000: {
+    exchanges: 'https://api.thegraph.com/subgraphs/name/synthetixio-team/synthetix-exchanges',
+    exchanger: 'https://api.thegraph.com/subgraphs/name/synthetixio-team/synthetix-exchanger',
+    issuance: 'https://subgraph.satsuma-prod.com/ce5e03f52f3b/synthetix/synthetix/api',
+    subgraph: 'https://subgraph.satsuma-prod.com/ce5e03f52f3b/synthetix/synthetix/api',
+  },
 };

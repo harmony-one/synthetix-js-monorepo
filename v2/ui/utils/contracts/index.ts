@@ -33,6 +33,7 @@ export const contracts: any = {
 type ContractName = keyof typeof contracts;
 
 export function initializeSynthetix(networkId: NetworkId, signer: Signer) {
+  console.log('initializeSynthetix', networkId)
   const contractsNames = Object.keys(contracts) as ContractName[];
   return contractsNames
     .map((contractName: ContractName) => {
