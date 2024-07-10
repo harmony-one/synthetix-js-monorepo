@@ -14,6 +14,7 @@ export const useGlobalProvidersWithFallback = () => {
     optimism: useInfura
       ? new providers.InfuraProvider(optimismId, process.env.NEXT_PUBLIC_INFURA_PROJECT_ID)
       : new providers.AlchemyProvider(optimismId, '59pd5v_lvc2xs3lieGwNOT_eqRxC0_lJ'),
+    harmony: new providers.JsonRpcProvider('https://api.harmony.one'),
   };
 
   return {

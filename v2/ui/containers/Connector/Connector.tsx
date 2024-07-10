@@ -2,7 +2,7 @@ import { useCallback, useEffect, useReducer } from 'react';
 import { WalletState } from '@web3-onboard/core';
 import { createContainer } from 'unstated-next';
 import { getIsOVM, isSupportedNetworkId } from 'utils/network';
-import { NetworkId, NetworkNameById } from '@synthetixio/contracts-interface';
+import { NetworkNameById, NetworkId } from '../../../../packages/contracts-interface/src/types';
 import { ethers } from 'ethers';
 import { LOCAL_STORAGE_KEYS } from 'constants/storage';
 import { AppEvents, initialState, reducer } from './reducer';
@@ -20,7 +20,8 @@ const useConnector = () => {
   });
 
   const [{ wallet }, connect, disconnect] = useConnectWallet();
-  const [{ connectedChain }, setNetwork] = useSetChain();
+  const [{ connectedChain, chains }, setNetwork] = useSetChain();
+  console.log('chains:', chains)
 
   const L1DefaultProvider = globalProviders.mainnet;
   const L2DefaultProvider = globalProviders.optimism;

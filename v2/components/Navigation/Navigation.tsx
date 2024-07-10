@@ -12,7 +12,7 @@ import {
   useDisclosure,
   Link as ChakraLink,
 } from '@chakra-ui/react';
-import { NetworkId, NetworkIdByName } from '@synthetixio/contracts-interface';
+import { NetworkIdByName, NetworkId } from '../../../packages/contracts-interface/src/types';
 import {
   ChevronDown,
   ChevronUp,

@@ -1,6 +1,6 @@
 import { detectEthereumProvider } from './metamask-detect-provider';
 import { DEFAULT_GAS_BUFFER, DEFAULT_NETWORK_ID } from 'constants/defaults';
-import { NetworkId, NetworkNameById } from '@synthetixio/contracts-interface';
+import { NetworkId, NetworkNameById } from '../../../packages/contracts-interface/src/types';
 
 import { GasLimitEstimate } from 'constants/network';
 import Wei, { wei } from '@synthetixio/wei';

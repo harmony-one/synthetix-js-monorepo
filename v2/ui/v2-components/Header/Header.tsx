@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { NetworkIdByName, NetworkId } from '@synthetixio/contracts-interface';
+import { NetworkIdByName, NetworkId } from '../../../../packages/contracts-interface/src/types';
 import { Navigation } from '@snx-v2/Navigation';
 import Connector from 'containers/Connector';
 
@@ -24,6 +24,7 @@ export const Header: FC = () => {
   }, [network, localNetwork]);
 
   const switchMenuNetwork = async (networkId: NetworkId) => {
+    console.log('switchMenuNetwork', networkId)
     if (network && networkId === network.id) return;
     if (isWalletConnected || walletConnectedToUnsupportedNetwork) {
       return await switchNetwork(networkId);

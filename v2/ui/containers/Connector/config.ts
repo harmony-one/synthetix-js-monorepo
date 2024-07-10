@@ -1,5 +1,5 @@
 import { getChainIdHex, getInfuraRpcURL } from 'utils/infura';
-import { NetworkIdByName } from '@synthetixio/contracts-interface';
+import { NetworkIdByName } from '../../../../packages/contracts-interface/src/types';
 import Onboard from '@web3-onboard/core';
 import type { OnboardAPI } from '@web3-onboard/core';
 import injectedModule from '@web3-onboard/injected-wallets';
@@ -58,6 +58,14 @@ const supportedChains = [
     label: 'Optimism Mainnet',
     rpcUrl: getInfuraRpcURL(NetworkIdByName['mainnet-ovm']),
     publicRpcUrl: 'https://mainnet.optimism.io',
+  },
+  // Harmony Mainnet
+  {
+    id: getChainIdHex(NetworkIdByName['harmony']),
+    token: 'ONE',
+    label: 'Harmony',
+    rpcUrl: 'https://api.harmony.one',
+    publicRpcUrl: 'https://api.harmony.one',
   },
 ].concat(
   isTestnetEnabled

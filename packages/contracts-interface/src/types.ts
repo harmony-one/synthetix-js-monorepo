@@ -14,7 +14,7 @@ import {
 import { SynthsByName } from '@synthetixio/contracts/build/mainnet/synths';
 import { SynthsByName as OptimismSynthsByName } from '@synthetixio/contracts/build/mainnet-ovm/synths';
 
-export const NetworkIdByName = {
+export const NetworkIdByName: Record<string, number> = {
   mainnet: 1,
   goerli: 5,
   'goerli-ovm': 420,
@@ -25,7 +25,7 @@ export const NetworkIdByName = {
   harmony: 1666600000,
 } as const;
 
-export const NetworkNameById = {
+export const NetworkNameById: Record<NetworkId, string> = {
   1: 'mainnet',
   5: 'goerli',
   42: 'kovan',
