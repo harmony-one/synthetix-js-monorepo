@@ -20,7 +20,7 @@ const useConnector = () => {
   });
 
   const [{ wallet }, connect, disconnect] = useConnectWallet();
-  const [{ connectedChain, chains }, setNetwork] = useSetChain();
+  const [{ connectedChain }, setNetwork] = useSetChain();
 
   const L1DefaultProvider = globalProviders.mainnet;
   const L2DefaultProvider = globalProviders.optimism;

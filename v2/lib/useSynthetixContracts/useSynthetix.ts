@@ -5,14 +5,16 @@ import { Provider } from '@ethersproject/providers';
 import { isSupportedNetworkId, NetworkNameById, NetworkIdByName } from './common';
 import { ContractContext } from '@snx-v2/ContractContext';
 
-import type { Synthetix } from '@synthetixio/contracts/build/mainnet/deployment/Synthetix';
-import type { Synthetix as SynthetixOvm } from '@synthetixio/contracts/build/mainnet-ovm/deployment/Synthetix';
+import type { Synthetix } from '../../contracts/src/mainnet/deployment/Synthetix';
+import type { Synthetix as SynthetixOvm } from '../../contracts/src/mainnet-ovm/deployment/Synthetix';
+import type { Synthetix as SynthetixHarmony } from '../../contracts/src/harmony/deployment/Synthetix';
 import { SignerContext } from '@snx-v2/SignerContext';
 import { useGlobalProvidersWithFallback } from '@synthetixio/use-global-providers';
 
 const contracts = {
-  mainnet: () => import('@synthetixio/contracts/build/mainnet/deployment/Synthetix'),
-  'mainnet-ovm': () => import('@synthetixio/contracts/build/mainnet-ovm/deployment/Synthetix'),
+  mainnet: () => import('../../contracts/src/mainnet/deployment/Synthetix'),
+  'mainnet-ovm': () => import('../../contracts/src/mainnet-ovm/deployment/Synthetix'),
+  'harmony': () => import('../../contracts/src/harmony/deployment/Synthetix'),
 };
 
 export const getSynthetix = async ({
@@ -31,7 +33,7 @@ export const getSynthetix = async ({
   }
   const networkName = NetworkNameById[networkId];
   const { address, abi } = await contracts[networkName]();
-  const contract = new ethers.Contract(address, abi, signerOrProvider) as SynthetixOvm | Synthetix;
+  const contract = new ethers.Contract(address, abi, signerOrProvider) as SynthetixOvm | Synthetix | SynthetixHarmony;
   return contract;
 };
 export const useSynthetix = () => {
