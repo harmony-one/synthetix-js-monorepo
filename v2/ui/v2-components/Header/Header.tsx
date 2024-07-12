@@ -24,7 +24,6 @@ export const Header: FC = () => {
   }, [network, localNetwork]);
 
   const switchMenuNetwork = async (networkId: NetworkId) => {
-    console.log('switchMenuNetwork', networkId)
     if (network && networkId === network.id) return;
     if (isWalletConnected || walletConnectedToUnsupportedNetwork) {
       return await switchNetwork(networkId);
