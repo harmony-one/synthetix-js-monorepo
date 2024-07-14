@@ -13,6 +13,7 @@ import { useGlobalProvidersWithFallback } from '@synthetixio/use-global-provider
 const contracts = {
   mainnet: () => import('@synthetixio/contracts/build/mainnet/deployment/SynthUtil'),
   'mainnet-ovm': () => import('@synthetixio/contracts/build/mainnet-ovm/deployment/SynthUtil'),
+  'harmony': () => import('../../contracts/src/harmony/deployment/SynthUtil'),
 };
 
 export const getSynthUtil = async ({

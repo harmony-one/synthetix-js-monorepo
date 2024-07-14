@@ -15,6 +15,7 @@ const contracts = {
     import('@synthetixio/contracts/build/mainnet/deployment/SynthetixBridgeToOptimism'),
   'mainnet-ovm': () =>
     import('@synthetixio/contracts/build/mainnet-ovm/deployment/SynthetixBridgeToBase'),
+  // 'harmony': () => import('../../contracts/src/harmony/deployment/SynthetixBridgeToBase'),
 };
 
 export const getSynthetixBridge = async ({

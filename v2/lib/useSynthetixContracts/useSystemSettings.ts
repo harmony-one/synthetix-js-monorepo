@@ -12,6 +12,7 @@ import { useGlobalProvidersWithFallback } from '@synthetixio/use-global-provider
 const contracts = {
   mainnet: () => import('@synthetixio/contracts/build/mainnet/deployment/SystemSettings'),
   'mainnet-ovm': () => import('@synthetixio/contracts/build/mainnet-ovm/deployment/SystemSettings'),
+  'harmony': () => import('../../contracts/src/harmony/deployment/SystemSettings'),
 };
 
 export const getSystemSettings = async ({

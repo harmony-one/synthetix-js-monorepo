@@ -61,6 +61,7 @@ export const useDebtData = () => {
   return useQuery(
     ['v2debt', 'data', networkId, walletAddress],
     async () => {
+      console.log('test load')
       if (!walletAddress || !Synthetix || !Liquidator || !SystemSettings)
         throw Error('Query should not be enabled if contracts are missing');
 
