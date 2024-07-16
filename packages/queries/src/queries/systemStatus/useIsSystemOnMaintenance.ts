@@ -7,12 +7,13 @@ const useIsSystemOnMaintenance = (ctx: QueryContext, options?: UseQueryOptions<b
     async () => {
       if (!ctx.snxjs) return false;
 
-      const [isSystemUpgrading, isExchangePaused] = (await Promise.all([
-        ctx.snxjs.contracts.SystemStatus.isSystemUpgrading(),
-        ctx.snxjs.contracts.DappMaintenance.isPausedSX(),
-      ])) as [boolean, boolean];
+      // const [isSystemUpgrading, isExchangePaused] = (await Promise.all([
+      //   ctx.snxjs.contracts.SystemStatus.isSystemUpgrading(),
+      //   ctx.snxjs.contracts.DappMaintenance.isPausedSX(),
+      // ])) as [boolean, boolean];
 
-      return isSystemUpgrading || isExchangePaused;
+      // return isSystemUpgrading || isExchangePaused;
+      return false;
     },
     {
       enabled: !!ctx.networkId,

@@ -2,8 +2,9 @@ import { useQuery } from '@tanstack/react-query';
 import { ethers } from 'ethers';
 import { Provider } from '@ethersproject/providers';
 import { isSupportedNetworkId, NetworkNameById, NetworkIdByName } from './common';
-import type { SystemSettings } from '@synthetixio/contracts/build/mainnet/deployment/SystemSettings';
-import type { SystemSettings as SystemSettingsOvm } from '@synthetixio/contracts/build/mainnet-ovm/deployment/SystemSettings';
+import type { SystemSettings } from '../../contracts/build/mainnet/deployment//SystemSettings';
+import type { SystemSettings as SystemSettingsOvm } from '../../contracts/build/mainnet-ovm/deployment/SystemSettings';
+import type { SystemSettings as SystemSettingsHarmony } from '../../contracts/src/harmony/deployment/SystemSettings';
 import { useContext } from 'react';
 import { ContractContext } from '@snx-v2/ContractContext';
 import { SignerContext } from '@snx-v2/SignerContext';
@@ -34,7 +35,8 @@ export const getSystemSettings = async ({
   const { address, abi } = await contracts[networkName]();
   const contract = new ethers.Contract(address, abi, signerOrProvider) as
     | SystemSettings
-    | SystemSettingsOvm;
+    | SystemSettingsOvm
+    | SystemSettingsHarmony;
   return contract;
 };
 export const useSystemSettings = () => {
