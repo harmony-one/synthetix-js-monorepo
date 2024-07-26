@@ -2,50 +2,50 @@
 	"targets": {
 		"SafeDecimalMath": {
 			"name": "SafeDecimalMath",
-			"address": "0x81DB92505F5b38CB5084049B6086b4D43f70D3C1",
+			"address": "0x4caEf1f19Ee276d333eA944eB943fe1cDD9436ca",
 			"source": "SafeDecimalMath",
-			"link": "https://harmony.etherscan.io/address/0x81DB92505F5b38CB5084049B6086b4D43f70D3C1",
-			"timestamp": "2024-07-07T20:34:59.350Z",
+			"link": "https://harmony.etherscan.io/address/0x4caEf1f19Ee276d333eA944eB943fe1cDD9436ca",
+			"timestamp": "2024-07-24T18:48:07.159Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": []
 		},
 		"Math": {
 			"name": "Math",
-			"address": "0x91B43698470a032FAEf29754A36F23B225c84F76",
+			"address": "0x2c9E2489FeA65e9eabaEf21a2e2e590D1cE21dB5",
 			"source": "Math",
-			"link": "https://harmony.etherscan.io/address/0x91B43698470a032FAEf29754A36F23B225c84F76",
-			"timestamp": "2024-07-07T20:35:04.634Z",
+			"link": "https://harmony.etherscan.io/address/0x2c9E2489FeA65e9eabaEf21a2e2e590D1cE21dB5",
+			"timestamp": "2024-07-24T18:48:12.479Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": []
 		},
 		"SystemSettingsLib": {
 			"name": "SystemSettingsLib",
-			"address": "0xA92356c7C4ba991216853eB8aC797DE362Cc9Bb9",
+			"address": "0x521539d28629fF6117619199bff8E5740580c76b",
 			"source": "SystemSettingsLib",
-			"link": "https://harmony.etherscan.io/address/0xA92356c7C4ba991216853eB8aC797DE362Cc9Bb9",
-			"timestamp": "2024-07-07T20:35:09.943Z",
+			"link": "https://harmony.etherscan.io/address/0x521539d28629fF6117619199bff8E5740580c76b",
+			"timestamp": "2024-07-24T18:48:17.845Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": []
 		},
 		"ExchangeSettlementLib": {
 			"name": "ExchangeSettlementLib",
-			"address": "0x2d6d269089819b802e57036b8A83792F504cdD60",
+			"address": "0x4aAbC3d933315363826055343C7cBc4403C7A847",
 			"source": "ExchangeSettlementLib",
-			"link": "https://harmony.etherscan.io/address/0x2d6d269089819b802e57036b8A83792F504cdD60",
-			"timestamp": "2024-07-07T20:35:15.409Z",
+			"link": "https://harmony.etherscan.io/address/0x4aAbC3d933315363826055343C7cBc4403C7A847",
+			"timestamp": "2024-07-24T18:48:23.169Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": []
 		},
 		"AddressResolver": {
 			"name": "AddressResolver",
-			"address": "0x566fa7A460a4f665a8361fa2cCc3618d432e4bb1",
+			"address": "0x3BE2A1dAD02b651CcE8205CCA6078208092445A9",
 			"source": "AddressResolver",
-			"link": "https://harmony.etherscan.io/address/0x566fa7A460a4f665a8361fa2cCc3618d432e4bb1",
-			"timestamp": "2024-07-07T20:35:20.730Z",
+			"link": "https://harmony.etherscan.io/address/0x3BE2A1dAD02b651CcE8205CCA6078208092445A9",
+			"timestamp": "2024-07-24T18:48:28.512Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -54,10 +54,10 @@
 		},
 		"ReadProxyAddressResolver": {
 			"name": "ReadProxyAddressResolver",
-			"address": "0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e",
+			"address": "0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6",
 			"source": "ReadProxy",
-			"link": "https://harmony.etherscan.io/address/0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e",
-			"timestamp": "2024-07-07T20:35:26.019Z",
+			"link": "https://harmony.etherscan.io/address/0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6",
+			"timestamp": "2024-07-24T18:48:33.772Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -66,59 +66,59 @@
 		},
 		"OneNetAggregatorIssuedSynths": {
 			"name": "OneNetAggregatorIssuedSynths",
-			"address": "0x7f339f91fA33213204af6606f135F86b52F6D979",
+			"address": "0x8CC656De01980400C1D83B3F69cD5087208c77B7",
 			"source": "OneNetAggregatorIssuedSynths",
-			"link": "https://harmony.etherscan.io/address/0x7f339f91fA33213204af6606f135F86b52F6D979",
-			"timestamp": "2024-07-07T20:35:31.328Z",
+			"link": "https://harmony.etherscan.io/address/0x8CC656De01980400C1D83B3F69cD5087208c77B7",
+			"timestamp": "2024-07-24T18:48:39.124Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"OneNetAggregatorDebtRatio": {
 			"name": "OneNetAggregatorDebtRatio",
-			"address": "0x3c9Ae4008460Af84864aa8AD02Af81f0b7CC906a",
+			"address": "0x3F9197c940f1Ffa150C6f44b215FF863d32eCdAF",
 			"source": "OneNetAggregatorDebtRatio",
-			"link": "https://harmony.etherscan.io/address/0x3c9Ae4008460Af84864aa8AD02Af81f0b7CC906a",
-			"timestamp": "2024-07-07T20:35:36.629Z",
+			"link": "https://harmony.etherscan.io/address/0x3F9197c940f1Ffa150C6f44b215FF863d32eCdAF",
+			"timestamp": "2024-07-24T18:48:44.418Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"FlexibleStorage": {
 			"name": "FlexibleStorage",
-			"address": "0x0093bB8b50232F6B59EaF083912500613119E81A",
+			"address": "0x81Df3c28489b8126C60b739138D34269BDdd6385",
 			"source": "FlexibleStorage",
-			"link": "https://harmony.etherscan.io/address/0x0093bB8b50232F6B59EaF083912500613119E81A",
-			"timestamp": "2024-07-07T20:35:41.995Z",
+			"link": "https://harmony.etherscan.io/address/0x81Df3c28489b8126C60b739138D34269BDdd6385",
+			"timestamp": "2024-07-24T18:48:49.747Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"SystemSettings": {
 			"name": "SystemSettings",
-			"address": "0x1c7aB5A550Ebef5054fEd47f331727a7249A2AA7",
+			"address": "0xCb36Ad9752BfFd6152ced24cBc7Cd091b43cBa01",
 			"source": "SystemSettings",
-			"link": "https://harmony.etherscan.io/address/0x1c7aB5A550Ebef5054fEd47f331727a7249A2AA7",
-			"timestamp": "2024-07-07T20:35:47.431Z",
+			"link": "https://harmony.etherscan.io/address/0xCb36Ad9752BfFd6152ced24cBc7Cd091b43cBa01",
+			"timestamp": "2024-07-24T18:48:55.179Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"SystemStatus": {
 			"name": "SystemStatus",
-			"address": "0xc4d550839386a2307Cbd8637FdE3B60FA6d434e7",
+			"address": "0x8A295e2BF8Ad80c19c261C1188bCFEc6d42a8da8",
 			"source": "SystemStatus",
-			"link": "https://harmony.etherscan.io/address/0xc4d550839386a2307Cbd8637FdE3B60FA6d434e7",
-			"timestamp": "2024-07-07T20:35:52.781Z",
+			"link": "https://harmony.etherscan.io/address/0x8A295e2BF8Ad80c19c261C1188bCFEc6d42a8da8",
+			"timestamp": "2024-07-24T18:49:00.492Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -127,23 +127,23 @@
 		},
 		"ExchangeRates": {
 			"name": "ExchangeRates",
-			"address": "0x8a63c979b601c8c1E31d77046f4bb0e39F681DC0",
+			"address": "0x3451FC3EBe825E5550144D233b020d23f707e085",
 			"source": "ExchangeRatesWithDexPricing",
-			"link": "https://harmony.etherscan.io/address/0x8a63c979b601c8c1E31d77046f4bb0e39F681DC0",
-			"timestamp": "2024-07-07T20:35:58.169Z",
+			"link": "https://harmony.etherscan.io/address/0x3451FC3EBe825E5550144D233b020d23f707e085",
+			"timestamp": "2024-07-24T18:49:05.876Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"TokenStateSynthetix": {
 			"name": "TokenStateSynthetix",
-			"address": "0x1124aD4D2C6a05BfB6cfc1878e756c5e2435C0A7",
+			"address": "0xd6E71Ca654e5068960a8Ea263303e6DE217396d6",
 			"source": "LegacyTokenState",
-			"link": "https://harmony.etherscan.io/address/0x1124aD4D2C6a05BfB6cfc1878e756c5e2435C0A7",
-			"timestamp": "2024-07-07T20:36:03.467Z",
+			"link": "https://harmony.etherscan.io/address/0xd6E71Ca654e5068960a8Ea263303e6DE217396d6",
+			"timestamp": "2024-07-24T20:55:01.314Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -153,10 +153,10 @@
 		},
 		"ProxySynthetix": {
 			"name": "ProxySynthetix",
-			"address": "0x44B4760C786Ced6fE18A555ffe7b9D9cd5eE15a8",
+			"address": "0x8bEde075b7BD5169b5aC87B1a5585da94eA9f831",
 			"source": "ProxyERC20",
-			"link": "https://harmony.etherscan.io/address/0x44B4760C786Ced6fE18A555ffe7b9D9cd5eE15a8",
-			"timestamp": "2024-07-07T20:36:08.765Z",
+			"link": "https://harmony.etherscan.io/address/0x8bEde075b7BD5169b5aC87B1a5585da94eA9f831",
+			"timestamp": "2024-07-24T20:55:06.538Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -165,26 +165,26 @@
 		},
 		"Synthetix": {
 			"name": "Synthetix",
-			"address": "0xb6FC72aFF2e7707fACfdE8eD35D2128aC8875beF",
+			"address": "0x6309DC41058664aF39911ebFef8cC4D4a8288b83",
 			"source": "Synthetix",
-			"link": "https://harmony.etherscan.io/address/0xb6FC72aFF2e7707fACfdE8eD35D2128aC8875beF",
-			"timestamp": "2024-07-07T20:40:09.760Z",
+			"link": "https://harmony.etherscan.io/address/0x6309DC41058664aF39911ebFef8cC4D4a8288b83",
+			"timestamp": "2024-07-24T20:55:11.972Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x44B4760C786Ced6fE18A555ffe7b9D9cd5eE15a8",
-				"0x1124aD4D2C6a05BfB6cfc1878e756c5e2435C0A7",
+				"0x8bEde075b7BD5169b5aC87B1a5585da94eA9f831",
+				"0xd6E71Ca654e5068960a8Ea263303e6DE217396d6",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				0,
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"RewardEscrow": {
 			"name": "RewardEscrow",
-			"address": "0xa756d534f95C9241aC40fd89275728fdEaff9f71",
+			"address": "0x7aCf675Defd338Dd3E05F3D9374DE4c37e21592b",
 			"source": "RewardEscrow",
-			"link": "https://harmony.etherscan.io/address/0xa756d534f95C9241aC40fd89275728fdEaff9f71",
-			"timestamp": "2024-07-07T20:40:15.106Z",
+			"link": "https://harmony.etherscan.io/address/0x7aCf675Defd338Dd3E05F3D9374DE4c37e21592b",
+			"timestamp": "2024-07-24T20:55:17.207Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -195,23 +195,23 @@
 		},
 		"RewardEscrowV2Frozen": {
 			"name": "RewardEscrowV2Frozen",
-			"address": "0x680d3df7b67C8Af8035C848176e6e4d576557893",
+			"address": "0xdE025cfb2eC8D73C01B43d19dD44BB699D899347",
 			"source": "RewardEscrowV2Frozen",
-			"link": "https://harmony.etherscan.io/address/0x680d3df7b67C8Af8035C848176e6e4d576557893",
-			"timestamp": "2024-07-07T20:40:20.488Z",
+			"link": "https://harmony.etherscan.io/address/0xdE025cfb2eC8D73C01B43d19dD44BB699D899347",
+			"timestamp": "2024-07-24T20:55:22.501Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"RewardEscrowV2Storage": {
 			"name": "RewardEscrowV2Storage",
-			"address": "0x5F3fD3ef991705A47d641C66B7B0e918Ab20B133",
+			"address": "0x39B5cfeDd40dA6EaE4422763e407cA77EF81209D",
 			"source": "RewardEscrowV2Storage",
-			"link": "https://harmony.etherscan.io/address/0x5F3fD3ef991705A47d641C66B7B0e918Ab20B133",
-			"timestamp": "2024-07-07T20:40:25.825Z",
+			"link": "https://harmony.etherscan.io/address/0x39B5cfeDd40dA6EaE4422763e407cA77EF81209D",
+			"timestamp": "2024-07-24T20:55:27.757Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -221,23 +221,23 @@
 		},
 		"RewardEscrowV2": {
 			"name": "RewardEscrowV2",
-			"address": "0x9d4E205eB550F96C30f0CF630A17E39da5CBe448",
+			"address": "0xe891f24BB08a51ADE87d291d1227f2eFf5Fe035C",
 			"source": "RewardEscrowV2",
-			"link": "https://harmony.etherscan.io/address/0x9d4E205eB550F96C30f0CF630A17E39da5CBe448",
-			"timestamp": "2024-07-07T20:40:31.169Z",
+			"link": "https://harmony.etherscan.io/address/0xe891f24BB08a51ADE87d291d1227f2eFf5Fe035C",
+			"timestamp": "2024-07-24T20:55:33.105Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"SynthetixEscrow": {
 			"name": "SynthetixEscrow",
-			"address": "0x689f6F5dF09d8301F38a1E6875151f452a9ca44e",
+			"address": "0x2aBc1b028dfd4123761ae197934Ad89224F761AC",
 			"source": "SynthetixEscrow",
-			"link": "https://harmony.etherscan.io/address/0x689f6F5dF09d8301F38a1E6875151f452a9ca44e",
-			"timestamp": "2024-07-07T20:40:36.458Z",
+			"link": "https://harmony.etherscan.io/address/0x2aBc1b028dfd4123761ae197934Ad89224F761AC",
+			"timestamp": "2024-07-24T20:55:38.328Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -247,23 +247,23 @@
 		},
 		"SynthetixDebtShare": {
 			"name": "SynthetixDebtShare",
-			"address": "0x296950A546CE6dcB54679344357Dc68b13f08AdA",
+			"address": "0x5E8beD3F4c2e978da458EfA3968417d184Aa7d74",
 			"source": "SynthetixDebtShare",
-			"link": "https://harmony.etherscan.io/address/0x296950A546CE6dcB54679344357Dc68b13f08AdA",
-			"timestamp": "2024-07-07T20:40:41.768Z",
+			"link": "https://harmony.etherscan.io/address/0x5E8beD3F4c2e978da458EfA3968417d184Aa7d74",
+			"timestamp": "2024-07-24T20:55:43.595Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"ProxyFeePool": {
 			"name": "ProxyFeePool",
-			"address": "0xDe53410Bb4561b10d29fb5882F181c446397fc88",
+			"address": "0x44305a0c5CB3F5727C51F154826038cf04dE2B7E",
 			"source": "Proxy",
-			"link": "https://harmony.etherscan.io/address/0xDe53410Bb4561b10d29fb5882F181c446397fc88",
-			"timestamp": "2024-07-07T20:40:47.019Z",
+			"link": "https://harmony.etherscan.io/address/0x44305a0c5CB3F5727C51F154826038cf04dE2B7E",
+			"timestamp": "2024-07-24T20:55:48.797Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -272,10 +272,10 @@
 		},
 		"DelegateApprovalsEternalStorage": {
 			"name": "DelegateApprovalsEternalStorage",
-			"address": "0xdFA251F863A6Ab601899405D3fC6bfdbDbb12b9F",
+			"address": "0x449f9F150A1261f026A3a5FBab8DAda087081e17",
 			"source": "EternalStorage",
-			"link": "https://harmony.etherscan.io/address/0xdFA251F863A6Ab601899405D3fC6bfdbDbb12b9F",
-			"timestamp": "2024-07-07T20:40:52.344Z",
+			"link": "https://harmony.etherscan.io/address/0x449f9F150A1261f026A3a5FBab8DAda087081e17",
+			"timestamp": "2024-07-24T20:55:54.027Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -285,49 +285,49 @@
 		},
 		"DelegateApprovals": {
 			"name": "DelegateApprovals",
-			"address": "0x6758a2A51FE27e269452D82d0311A3A536956F18",
+			"address": "0x70FD6cb33ad3feb65405Dec43adF6BC0d67c867a",
 			"source": "DelegateApprovals",
-			"link": "https://harmony.etherscan.io/address/0x6758a2A51FE27e269452D82d0311A3A536956F18",
-			"timestamp": "2024-07-07T20:40:57.633Z",
+			"link": "https://harmony.etherscan.io/address/0x70FD6cb33ad3feb65405Dec43adF6BC0d67c867a",
+			"timestamp": "2024-07-24T20:55:59.239Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0xdFA251F863A6Ab601899405D3fC6bfdbDbb12b9F"
+				"0x449f9F150A1261f026A3a5FBab8DAda087081e17"
 			]
 		},
 		"Liquidator": {
 			"name": "Liquidator",
-			"address": "0xfA6d7E71380b5c14c82EFdbc3069a4d161A4C25e",
+			"address": "0x06B7085cA8CD95f930Df8c16E6dC6005e97354E5",
 			"source": "Liquidator",
-			"link": "https://harmony.etherscan.io/address/0xfA6d7E71380b5c14c82EFdbc3069a4d161A4C25e",
-			"timestamp": "2024-07-07T20:41:02.983Z",
+			"link": "https://harmony.etherscan.io/address/0x06B7085cA8CD95f930Df8c16E6dC6005e97354E5",
+			"timestamp": "2024-07-24T20:56:04.498Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"LiquidatorRewards": {
 			"name": "LiquidatorRewards",
-			"address": "0xf15204Fd4E4C1eE616529Ea9F1cB69AF792a6A23",
+			"address": "0x60E61BE6AD4F0E9c9C1205806438682e4D3600Bd",
 			"source": "LiquidatorRewards",
-			"link": "https://harmony.etherscan.io/address/0xf15204Fd4E4C1eE616529Ea9F1cB69AF792a6A23",
-			"timestamp": "2024-07-07T20:41:08.259Z",
+			"link": "https://harmony.etherscan.io/address/0x60E61BE6AD4F0E9c9C1205806438682e4D3600Bd",
+			"timestamp": "2024-07-24T20:56:09.738Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"FeePoolEternalStorage": {
 			"name": "FeePoolEternalStorage",
-			"address": "0x2963084916b86532F8C517FABcDFf486cbfB858e",
+			"address": "0xEce0eDc09f46B6bcf6b30831959b810d693DDff3",
 			"source": "FeePoolEternalStorage",
-			"link": "https://harmony.etherscan.io/address/0x2963084916b86532F8C517FABcDFf486cbfB858e",
-			"timestamp": "2024-07-07T20:41:13.557Z",
+			"link": "https://harmony.etherscan.io/address/0xEce0eDc09f46B6bcf6b30831959b810d693DDff3",
+			"timestamp": "2024-07-24T20:56:14.955Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -337,142 +337,142 @@
 		},
 		"FeePool": {
 			"name": "FeePool",
-			"address": "0x1C92cEe18BB0f41f1b1C4f64C40C9cb6657B700c",
+			"address": "0x2B0891C3bFB6f89BB585dA28B61eE7559bff447b",
 			"source": "FeePool",
-			"link": "https://harmony.etherscan.io/address/0x1C92cEe18BB0f41f1b1C4f64C40C9cb6657B700c",
-			"timestamp": "2024-07-07T20:41:18.951Z",
+			"link": "https://harmony.etherscan.io/address/0x2B0891C3bFB6f89BB585dA28B61eE7559bff447b",
+			"timestamp": "2024-07-24T20:56:20.248Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0xDe53410Bb4561b10d29fb5882F181c446397fc88",
+				"0x44305a0c5CB3F5727C51F154826038cf04dE2B7E",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"RewardsDistribution": {
 			"name": "RewardsDistribution",
-			"address": "0xdBDDad4256A9D684e629d49894513a98858255bF",
+			"address": "0x9000B1843701ac02E8EDff4d9b9Ebbb9e9cdEA83",
 			"source": "RewardsDistribution",
-			"link": "https://harmony.etherscan.io/address/0xdBDDad4256A9D684e629d49894513a98858255bF",
-			"timestamp": "2024-07-07T20:41:24.229Z",
+			"link": "https://harmony.etherscan.io/address/0x9000B1843701ac02E8EDff4d9b9Ebbb9e9cdEA83",
+			"timestamp": "2024-07-24T20:56:25.467Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x0000000000000000000000000000000000000000",
 				"0x0000000000000000000000000000000000000000",
-				"0x9d4E205eB550F96C30f0CF630A17E39da5CBe448",
-				"0xDe53410Bb4561b10d29fb5882F181c446397fc88"
+				"0xe891f24BB08a51ADE87d291d1227f2eFf5Fe035C",
+				"0x44305a0c5CB3F5727C51F154826038cf04dE2B7E"
 			]
 		},
 		"DebtCache": {
 			"name": "DebtCache",
-			"address": "0xA4Be9ba4Da1De5B7cfE55b1934CaE66f22AB94A9",
+			"address": "0xD230c32665965F1eC3f48313db22F3656a586a2F",
 			"source": "DebtCache",
-			"link": "https://harmony.etherscan.io/address/0xA4Be9ba4Da1De5B7cfE55b1934CaE66f22AB94A9",
-			"timestamp": "2024-07-07T20:41:29.624Z",
+			"link": "https://harmony.etherscan.io/address/0xD230c32665965F1eC3f48313db22F3656a586a2F",
+			"timestamp": "2024-07-24T20:56:30.753Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"Exchanger": {
 			"name": "Exchanger",
-			"address": "0x17De827EdB52F7B74f42c2ec79Db03E7A8d26577",
+			"address": "0x6cfa5D9334E19046D5889E0326c90ad298323048",
 			"source": "ExchangerWithFeeRecAlternatives",
-			"link": "https://harmony.etherscan.io/address/0x17De827EdB52F7B74f42c2ec79Db03E7A8d26577",
-			"timestamp": "2024-07-07T20:41:35.069Z",
+			"link": "https://harmony.etherscan.io/address/0x6cfa5D9334E19046D5889E0326c90ad298323048",
+			"timestamp": "2024-07-24T20:56:36.056Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"CircuitBreaker": {
 			"name": "CircuitBreaker",
-			"address": "0x1527e426e9cc6F3541B7fBb2fcc0Ba367BdCbb2d",
+			"address": "0xCfE0ceBFfEcFD2Ac0d5aCb2AA5B194f41d1223A2",
 			"source": "CircuitBreaker",
-			"link": "https://harmony.etherscan.io/address/0x1527e426e9cc6F3541B7fBb2fcc0Ba367BdCbb2d",
-			"timestamp": "2024-07-07T20:41:40.398Z",
+			"link": "https://harmony.etherscan.io/address/0xCfE0ceBFfEcFD2Ac0d5aCb2AA5B194f41d1223A2",
+			"timestamp": "2024-07-24T20:56:41.280Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"ExchangeCircuitBreaker": {
 			"name": "ExchangeCircuitBreaker",
-			"address": "0xEa6277cD2f2Fe22139793c2018688c6c5463F508",
+			"address": "0x983305787172c8d9ac83D7587ef0fCC0D8325D37",
 			"source": "ExchangeCircuitBreaker",
-			"link": "https://harmony.etherscan.io/address/0xEa6277cD2f2Fe22139793c2018688c6c5463F508",
-			"timestamp": "2024-07-07T20:41:45.707Z",
+			"link": "https://harmony.etherscan.io/address/0x983305787172c8d9ac83D7587ef0fCC0D8325D37",
+			"timestamp": "2024-07-24T20:56:46.486Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"VirtualSynthMastercopy": {
 			"name": "VirtualSynthMastercopy",
-			"address": "0xDA570799Fc2fD1c8aB855C3046D9BAb2EB86e3c7",
+			"address": "0x07ff20FB6e897DC2a0d0e6A9Acb30FC5CA9f1876",
 			"source": "VirtualSynthMastercopy",
-			"link": "https://harmony.etherscan.io/address/0xDA570799Fc2fD1c8aB855C3046D9BAb2EB86e3c7",
-			"timestamp": "2024-07-07T20:41:51.022Z",
+			"link": "https://harmony.etherscan.io/address/0x07ff20FB6e897DC2a0d0e6A9Acb30FC5CA9f1876",
+			"timestamp": "2024-07-24T20:56:51.728Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": []
 		},
 		"ExchangeState": {
 			"name": "ExchangeState",
-			"address": "0x50272BdA49658d0Af51c713FEb1324b32233467c",
+			"address": "0xfA0c7Dc47B325BB68631101A1F6985EAE19e79f9",
 			"source": "ExchangeState",
-			"link": "https://harmony.etherscan.io/address/0x50272BdA49658d0Af51c713FEb1324b32233467c",
-			"timestamp": "2024-07-07T20:41:56.336Z",
+			"link": "https://harmony.etherscan.io/address/0xfA0c7Dc47B325BB68631101A1F6985EAE19e79f9",
+			"timestamp": "2024-07-24T20:56:56.952Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x17De827EdB52F7B74f42c2ec79Db03E7A8d26577"
+				"0x6cfa5D9334E19046D5889E0326c90ad298323048"
 			]
 		},
 		"Issuer": {
 			"name": "Issuer",
-			"address": "0x986095a77A9Ac5cF30eC296d2f1fBd12DA56ed12",
+			"address": "0x5582adb4871dC535054A314a9002F42db197DfF5",
 			"source": "Issuer",
-			"link": "https://harmony.etherscan.io/address/0x986095a77A9Ac5cF30eC296d2f1fBd12DA56ed12",
-			"timestamp": "2024-07-07T20:42:01.771Z",
+			"link": "https://harmony.etherscan.io/address/0x5582adb4871dC535054A314a9002F42db197DfF5",
+			"timestamp": "2024-07-24T20:57:02.300Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"TradingRewards": {
 			"name": "TradingRewards",
-			"address": "0x4791ff7c0aA124AC18FE7a0A5C73f18788e7bbA1",
+			"address": "0xc0bb987bdd3dD985d38311eAD7245f8f8550e0d8",
 			"source": "TradingRewards",
-			"link": "https://harmony.etherscan.io/address/0x4791ff7c0aA124AC18FE7a0A5C73f18788e7bbA1",
-			"timestamp": "2024-07-07T20:42:07.125Z",
+			"link": "https://harmony.etherscan.io/address/0xc0bb987bdd3dD985d38311eAD7245f8f8550e0d8",
+			"timestamp": "2024-07-24T20:57:07.561Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"SupplySchedule": {
 			"name": "SupplySchedule",
-			"address": "0x7E3BD4ae2a61bF2e88C41Bb34CEDB876EDB07D47",
+			"address": "0xbD3959ee78B36cD89E5BB5BfCCd535f90447A63a",
 			"source": "SupplySchedule",
-			"link": "https://harmony.etherscan.io/address/0x7E3BD4ae2a61bF2e88C41Bb34CEDB876EDB07D47",
-			"timestamp": "2024-07-07T20:42:12.440Z",
+			"link": "https://harmony.etherscan.io/address/0xbD3959ee78B36cD89E5BB5BfCCd535f90447A63a",
+			"timestamp": "2024-07-24T20:57:12.786Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -483,35 +483,35 @@
 		},
 		"EscrowChecker": {
 			"name": "EscrowChecker",
-			"address": "0x1a99D547D05E36c9A02fe7cbDbbc8A6e35AFB4C7",
+			"address": "0xfE67240fD5b4A6781b57Cd19290C919cec57232c",
 			"source": "EscrowChecker",
-			"link": "https://harmony.etherscan.io/address/0x1a99D547D05E36c9A02fe7cbDbbc8A6e35AFB4C7",
-			"timestamp": "2024-07-07T20:42:17.739Z",
+			"link": "https://harmony.etherscan.io/address/0xfE67240fD5b4A6781b57Cd19290C919cec57232c",
+			"timestamp": "2024-07-24T20:57:17.969Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x689f6F5dF09d8301F38a1E6875151f452a9ca44e"
+				"0x2aBc1b028dfd4123761ae197934Ad89224F761AC"
 			]
 		},
 		"SynthetixBridgeToOptimism": {
 			"name": "SynthetixBridgeToOptimism",
-			"address": "0x286b4C48bCC9C572D4626Ae697DcCF2085dE1866",
+			"address": "0x9e40453DC80b5a276b1Ad2eE40e71A0E9849679c",
 			"source": "SynthetixBridgeToOptimism",
-			"link": "https://harmony.etherscan.io/address/0x286b4C48bCC9C572D4626Ae697DcCF2085dE1866",
-			"timestamp": "2024-07-07T20:42:23.134Z",
+			"link": "https://harmony.etherscan.io/address/0x9e40453DC80b5a276b1Ad2eE40e71A0E9849679c",
+			"timestamp": "2024-07-24T20:57:23.248Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"SynthetixBridgeEscrow": {
 			"name": "SynthetixBridgeEscrow",
-			"address": "0x09A469CeCd1a04916Bdf16e766d91E73a9Bc715f",
+			"address": "0x9b1E4d7062905988B2F02E3aF79Dc11B65272d45",
 			"source": "SynthetixBridgeEscrow",
-			"link": "https://harmony.etherscan.io/address/0x09A469CeCd1a04916Bdf16e766d91E73a9Bc715f",
-			"timestamp": "2024-07-07T20:42:28.435Z",
+			"link": "https://harmony.etherscan.io/address/0x9b1E4d7062905988B2F02E3aF79Dc11B65272d45",
+			"timestamp": "2024-07-24T20:57:28.454Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -520,87 +520,87 @@
 		},
 		"OwnerRelayOnEthereum": {
 			"name": "OwnerRelayOnEthereum",
-			"address": "0x28939213B2AaDee110DC32FFF9086381ee5598bc",
+			"address": "0x7ea2b9E2e0c2b13990AB62571F3cB70a52FAA6AC",
 			"source": "OwnerRelayOnEthereum",
-			"link": "https://harmony.etherscan.io/address/0x28939213B2AaDee110DC32FFF9086381ee5598bc",
-			"timestamp": "2024-07-07T20:42:33.742Z",
+			"link": "https://harmony.etherscan.io/address/0x7ea2b9E2e0c2b13990AB62571F3cB70a52FAA6AC",
+			"timestamp": "2024-07-24T20:57:33.686Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"DebtMigratorOnEthereum": {
 			"name": "DebtMigratorOnEthereum",
-			"address": "0x86dfa73FbCa910583DaF6684f8e5eF0fb7f8ae19",
+			"address": "0x1694E15D16d49Cba5A8E5cDf012141b777EfceCb",
 			"source": "DebtMigratorOnEthereum",
-			"link": "https://harmony.etherscan.io/address/0x86dfa73FbCa910583DaF6684f8e5eF0fb7f8ae19",
-			"timestamp": "2024-07-07T20:42:39.102Z",
+			"link": "https://harmony.etherscan.io/address/0x1694E15D16d49Cba5A8E5cDf012141b777EfceCb",
+			"timestamp": "2024-07-24T20:57:38.930Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"SynthRedeemer": {
 			"name": "SynthRedeemer",
-			"address": "0xEffE7697A47B197D1165e76b6ac9769D6bEc243E",
+			"address": "0x3DEf35DAAA7D7EaE71786a2A0f2520d7812cFb1b",
 			"source": "SynthRedeemer",
-			"link": "https://harmony.etherscan.io/address/0xEffE7697A47B197D1165e76b6ac9769D6bEc243E",
-			"timestamp": "2024-07-07T20:42:44.419Z",
+			"link": "https://harmony.etherscan.io/address/0x3DEf35DAAA7D7EaE71786a2A0f2520d7812cFb1b",
+			"timestamp": "2024-07-24T20:57:44.145Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"DynamicSynthRedeemer": {
 			"name": "DynamicSynthRedeemer",
-			"address": "0x0538885d6349980F7fFA326D6012e423D065c584",
+			"address": "0x7e3D7c52D8874D243DC2e4334Dc60943D3A2D3EC",
 			"source": "DynamicSynthRedeemer",
-			"link": "https://harmony.etherscan.io/address/0x0538885d6349980F7fFA326D6012e423D065c584",
-			"timestamp": "2024-07-07T20:42:49.755Z",
+			"link": "https://harmony.etherscan.io/address/0x7e3D7c52D8874D243DC2e4334Dc60943D3A2D3EC",
+			"timestamp": "2024-07-24T20:57:49.381Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"WrapperFactory": {
 			"name": "WrapperFactory",
-			"address": "0xe594aFA92C5221743189d448A35fa5e0920d178a",
+			"address": "0xde82aA833bdfDeA96Ae1Eb220FD5e13FE5FD0D37",
 			"source": "WrapperFactory",
-			"link": "https://harmony.etherscan.io/address/0xe594aFA92C5221743189d448A35fa5e0920d178a",
-			"timestamp": "2024-07-07T20:42:55.150Z",
+			"link": "https://harmony.etherscan.io/address/0xde82aA833bdfDeA96Ae1Eb220FD5e13FE5FD0D37",
+			"timestamp": "2024-07-24T20:57:54.666Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"DirectIntegrationManager": {
 			"name": "DirectIntegrationManager",
-			"address": "0x242b1c1B52cE7D1B52ce8C34F06A15431a86aac8",
+			"address": "0x2e603A2A7d8A4dA2ee18707aC84Dbd04c15B834E",
 			"source": "DirectIntegrationManager",
-			"link": "https://harmony.etherscan.io/address/0x242b1c1B52cE7D1B52ce8C34F06A15431a86aac8",
-			"timestamp": "2024-07-07T20:43:00.511Z",
+			"link": "https://harmony.etherscan.io/address/0x2e603A2A7d8A4dA2ee18707aC84Dbd04c15B834E",
+			"timestamp": "2024-07-24T20:57:59.883Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"TokenStatesUSD": {
 			"name": "TokenStatesUSD",
-			"address": "0xa9fa773a843B844421B2b46DA8C152cbFD5f9f0f",
+			"address": "0x0275D4571EeAa77fC27a027A77D3A1c435169B9E",
 			"source": "TokenState",
-			"link": "https://harmony.etherscan.io/address/0xa9fa773a843B844421B2b46DA8C152cbFD5f9f0f",
-			"timestamp": "2024-07-07T20:43:05.797Z",
+			"link": "https://harmony.etherscan.io/address/0x0275D4571EeAa77fC27a027A77D3A1c435169B9E",
+			"timestamp": "2024-07-24T20:58:05.074Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -610,10 +610,10 @@
 		},
 		"ProxysUSD": {
 			"name": "ProxysUSD",
-			"address": "0xAD71Cbb7c770B0C172C24f31F247d69B1407f3Ce",
+			"address": "0x0eC0b86ca2126C38227C554A916AA9Cc8da185Fd",
 			"source": "ProxyERC20",
-			"link": "https://harmony.etherscan.io/address/0xAD71Cbb7c770B0C172C24f31F247d69B1407f3Ce",
-			"timestamp": "2024-07-07T20:43:11.110Z",
+			"link": "https://harmony.etherscan.io/address/0x0eC0b86ca2126C38227C554A916AA9Cc8da185Fd",
+			"timestamp": "2024-07-24T20:58:10.283Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -622,29 +622,29 @@
 		},
 		"SynthsUSD": {
 			"name": "SynthsUSD",
-			"address": "0x758A70682b964AbED4D48e2104Cd6a330485407d",
+			"address": "0x2E17BBDC56F62d3A6d4f52329EEF5600D79a02D2",
 			"source": "MultiCollateralSynth",
-			"link": "https://harmony.etherscan.io/address/0x758A70682b964AbED4D48e2104Cd6a330485407d",
-			"timestamp": "2024-07-07T21:43:09.342Z",
+			"link": "https://harmony.etherscan.io/address/0x2E17BBDC56F62d3A6d4f52329EEF5600D79a02D2",
+			"timestamp": "2024-07-24T20:58:15.573Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0xAD71Cbb7c770B0C172C24f31F247d69B1407f3Ce",
-				"0xa9fa773a843B844421B2b46DA8C152cbFD5f9f0f",
+				"0x0eC0b86ca2126C38227C554A916AA9Cc8da185Fd",
+				"0x0275D4571EeAa77fC27a027A77D3A1c435169B9E",
 				"Synth sUSD",
 				"sUSD",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x7355534400000000000000000000000000000000000000000000000000000000",
 				0,
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"TokenStatesBTC": {
 			"name": "TokenStatesBTC",
-			"address": "0x08c9Eea924C68aAb44cEa6CC3D12586a31d6FFc6",
+			"address": "0x5AbAa81Cf707E269a69aDE7f7c65AaB5b5629676",
 			"source": "TokenState",
-			"link": "https://harmony.etherscan.io/address/0x08c9Eea924C68aAb44cEa6CC3D12586a31d6FFc6",
-			"timestamp": "2024-07-07T21:43:14.590Z",
+			"link": "https://harmony.etherscan.io/address/0x5AbAa81Cf707E269a69aDE7f7c65AaB5b5629676",
+			"timestamp": "2024-07-24T20:58:20.768Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -654,10 +654,10 @@
 		},
 		"ProxysBTC": {
 			"name": "ProxysBTC",
-			"address": "0xB1F4e94D2A96405852AaAA2D3F065fc743f9b412",
+			"address": "0x44B60C5eafD6ca57aD8cBC4d3EC08d5B9Afb625a",
 			"source": "ProxyERC20",
-			"link": "https://harmony.etherscan.io/address/0xB1F4e94D2A96405852AaAA2D3F065fc743f9b412",
-			"timestamp": "2024-07-07T21:43:19.906Z",
+			"link": "https://harmony.etherscan.io/address/0x44B60C5eafD6ca57aD8cBC4d3EC08d5B9Afb625a",
+			"timestamp": "2024-07-24T20:58:26.019Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -666,29 +666,29 @@
 		},
 		"SynthsBTC": {
 			"name": "SynthsBTC",
-			"address": "0x97402B2CD7F37f8FCf4037f46B41649340a66E31",
+			"address": "0xFCbE0b58c31662c2d85923c48bdA895505581D85",
 			"source": "MultiCollateralSynth",
-			"link": "https://harmony.etherscan.io/address/0x97402B2CD7F37f8FCf4037f46B41649340a66E31",
-			"timestamp": "2024-07-07T21:43:25.251Z",
+			"link": "https://harmony.etherscan.io/address/0xFCbE0b58c31662c2d85923c48bdA895505581D85",
+			"timestamp": "2024-07-24T20:58:31.318Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0xB1F4e94D2A96405852AaAA2D3F065fc743f9b412",
-				"0x08c9Eea924C68aAb44cEa6CC3D12586a31d6FFc6",
+				"0x44B60C5eafD6ca57aD8cBC4d3EC08d5B9Afb625a",
+				"0x5AbAa81Cf707E269a69aDE7f7c65AaB5b5629676",
 				"Synth sBTC",
 				"sBTC",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x7342544300000000000000000000000000000000000000000000000000000000",
 				0,
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"TokenStatesETH": {
 			"name": "TokenStatesETH",
-			"address": "0x7B8b6717fF463b861Ef6077394Be3AE23273219c",
+			"address": "0x109684a1a0D75db78C791c2deA16B67A7976C770",
 			"source": "TokenState",
-			"link": "https://harmony.etherscan.io/address/0x7B8b6717fF463b861Ef6077394Be3AE23273219c",
-			"timestamp": "2024-07-07T21:43:30.517Z",
+			"link": "https://harmony.etherscan.io/address/0x109684a1a0D75db78C791c2deA16B67A7976C770",
+			"timestamp": "2024-07-24T20:58:36.523Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -698,10 +698,10 @@
 		},
 		"ProxysETH": {
 			"name": "ProxysETH",
-			"address": "0x3b2605626B292067de865109D333cAb1278fc72a",
+			"address": "0x5c2F6870A8Df016cA307957db928d13285FebaD2",
 			"source": "ProxyERC20",
-			"link": "https://harmony.etherscan.io/address/0x3b2605626B292067de865109D333cAb1278fc72a",
-			"timestamp": "2024-07-07T21:43:35.798Z",
+			"link": "https://harmony.etherscan.io/address/0x5c2F6870A8Df016cA307957db928d13285FebaD2",
+			"timestamp": "2024-07-24T20:58:41.733Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -710,29 +710,29 @@
 		},
 		"SynthsETH": {
 			"name": "SynthsETH",
-			"address": "0x7c5fDeec27d7447A2cBEe1fd7a1a5F719534b4cD",
+			"address": "0x198213A9FE2bE3F6ed20f6f7695E8E5aC1aDaa8c",
 			"source": "MultiCollateralSynth",
-			"link": "https://harmony.etherscan.io/address/0x7c5fDeec27d7447A2cBEe1fd7a1a5F719534b4cD",
-			"timestamp": "2024-07-07T21:43:41.157Z",
+			"link": "https://harmony.etherscan.io/address/0x198213A9FE2bE3F6ed20f6f7695E8E5aC1aDaa8c",
+			"timestamp": "2024-07-24T20:58:47.015Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x3b2605626B292067de865109D333cAb1278fc72a",
-				"0x7B8b6717fF463b861Ef6077394Be3AE23273219c",
+				"0x5c2F6870A8Df016cA307957db928d13285FebaD2",
+				"0x109684a1a0D75db78C791c2deA16B67A7976C770",
 				"Synth sETH",
 				"sETH",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x7345544800000000000000000000000000000000000000000000000000000000",
 				0,
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"TokenStatesLINK": {
 			"name": "TokenStatesLINK",
-			"address": "0x15B8804C0E212b8125E4AFF2386Dc632d7584E2f",
+			"address": "0x181EC2b85c39AbE74b28b90Bd5A657670DD4B79d",
 			"source": "TokenState",
-			"link": "https://harmony.etherscan.io/address/0x15B8804C0E212b8125E4AFF2386Dc632d7584E2f",
-			"timestamp": "2024-07-07T21:43:46.410Z",
+			"link": "https://harmony.etherscan.io/address/0x181EC2b85c39AbE74b28b90Bd5A657670DD4B79d",
+			"timestamp": "2024-07-24T20:58:52.249Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -742,10 +742,10 @@
 		},
 		"ProxysLINK": {
 			"name": "ProxysLINK",
-			"address": "0x124EBE1bd9446C750Fe72f93197CB7c00c636c25",
+			"address": "0xc71F6629CF2fb995A4Ac46d9D6E4d80E14A9bc95",
 			"source": "ProxyERC20",
-			"link": "https://harmony.etherscan.io/address/0x124EBE1bd9446C750Fe72f93197CB7c00c636c25",
-			"timestamp": "2024-07-07T21:43:51.661Z",
+			"link": "https://harmony.etherscan.io/address/0xc71F6629CF2fb995A4Ac46d9D6E4d80E14A9bc95",
+			"timestamp": "2024-07-24T20:58:57.458Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -754,29 +754,29 @@
 		},
 		"SynthsLINK": {
 			"name": "SynthsLINK",
-			"address": "0x4a5CEF0Ec6F29287C27829BDD78c78d2341D7DB5",
+			"address": "0xf04A1982D512B460e321EbE45641678c89f2D2c0",
 			"source": "MultiCollateralSynth",
-			"link": "https://harmony.etherscan.io/address/0x4a5CEF0Ec6F29287C27829BDD78c78d2341D7DB5",
-			"timestamp": "2024-07-07T21:43:57.011Z",
+			"link": "https://harmony.etherscan.io/address/0xf04A1982D512B460e321EbE45641678c89f2D2c0",
+			"timestamp": "2024-07-24T20:59:02.752Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x124EBE1bd9446C750Fe72f93197CB7c00c636c25",
-				"0x15B8804C0E212b8125E4AFF2386Dc632d7584E2f",
+				"0xc71F6629CF2fb995A4Ac46d9D6E4d80E14A9bc95",
+				"0x181EC2b85c39AbE74b28b90Bd5A657670DD4B79d",
 				"Synth sLINK",
 				"sLINK",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x734c494e4b000000000000000000000000000000000000000000000000000000",
 				0,
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"TokenStatesETHBTC": {
 			"name": "TokenStatesETHBTC",
-			"address": "0x6b61468F26ffE71C572c1572A60b1BF19Dc25Cb0",
+			"address": "0x051d74179D13b516346e4A1dA1E7dd0D382446c8",
 			"source": "TokenState",
-			"link": "https://harmony.etherscan.io/address/0x6b61468F26ffE71C572c1572A60b1BF19Dc25Cb0",
-			"timestamp": "2024-07-07T21:44:02.279Z",
+			"link": "https://harmony.etherscan.io/address/0x051d74179D13b516346e4A1dA1E7dd0D382446c8",
+			"timestamp": "2024-07-24T20:59:07.958Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -786,10 +786,10 @@
 		},
 		"ProxysETHBTC": {
 			"name": "ProxysETHBTC",
-			"address": "0x3f5c8fDb5BB2751Fa9F4ED38Adeb1e358A90044F",
+			"address": "0xaf62baF9C4583E88ad3485e578e94D59bcAF6E85",
 			"source": "ProxyERC20",
-			"link": "https://harmony.etherscan.io/address/0x3f5c8fDb5BB2751Fa9F4ED38Adeb1e358A90044F",
-			"timestamp": "2024-07-07T21:44:07.546Z",
+			"link": "https://harmony.etherscan.io/address/0xaf62baF9C4583E88ad3485e578e94D59bcAF6E85",
+			"timestamp": "2024-07-24T20:59:13.172Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -798,82 +798,82 @@
 		},
 		"SynthsETHBTC": {
 			"name": "SynthsETHBTC",
-			"address": "0x50f1170B78D0Fcb1e2b7E42891463c6C9859fFF2",
+			"address": "0xB7d362b501853408BEF580cE75160cCD8581dbcc",
 			"source": "MultiCollateralSynth",
-			"link": "https://harmony.etherscan.io/address/0x50f1170B78D0Fcb1e2b7E42891463c6C9859fFF2",
-			"timestamp": "2024-07-07T21:44:12.878Z",
+			"link": "https://harmony.etherscan.io/address/0xB7d362b501853408BEF580cE75160cCD8581dbcc",
+			"timestamp": "2024-07-24T20:59:18.466Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x3f5c8fDb5BB2751Fa9F4ED38Adeb1e358A90044F",
-				"0x6b61468F26ffE71C572c1572A60b1BF19Dc25Cb0",
+				"0xaf62baF9C4583E88ad3485e578e94D59bcAF6E85",
+				"0x051d74179D13b516346e4A1dA1E7dd0D382446c8",
 				"Synth sETHBTC",
 				"sETHBTC",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x7345544842544300000000000000000000000000000000000000000000000000",
 				0,
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"Depot": {
 			"name": "Depot",
-			"address": "0x6488138F2D4b15F2A3192A586Fbbf77c1A13dd59",
+			"address": "0x5298b5BBb7F36d72062988700651547F9d55E817",
 			"source": "Depot",
-			"link": "https://harmony.etherscan.io/address/0x6488138F2D4b15F2A3192A586Fbbf77c1A13dd59",
-			"timestamp": "2024-07-07T21:44:18.218Z",
+			"link": "https://harmony.etherscan.io/address/0x5298b5BBb7F36d72062988700651547F9d55E817",
+			"timestamp": "2024-07-24T20:59:23.736Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"EtherWrapper": {
 			"name": "EtherWrapper",
-			"address": "0x9b83f02bBa84DB6C71Aa5873816442734E35F653",
+			"address": "0x464a516e3105Db6408DBabb825C830c8ffE8398c",
 			"source": "EtherWrapper",
-			"link": "https://harmony.etherscan.io/address/0x9b83f02bBa84DB6C71Aa5873816442734E35F653",
-			"timestamp": "2024-07-07T21:46:21.126Z",
+			"link": "https://harmony.etherscan.io/address/0x464a516e3105Db6408DBabb825C830c8ffE8398c",
+			"timestamp": "2024-07-24T20:59:28.975Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e",
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6",
 				"0xF720b7910C6b2FF5bd167171aDa211E226740bfe"
 			]
 		},
 		"NativeEtherWrapper": {
 			"name": "NativeEtherWrapper",
-			"address": "0x84dA690a22c60974851Fb4d605E214DE4445FdF2",
+			"address": "0x3AebF4315956fa2193742f2d6B439e96754bf8D2",
 			"source": "NativeEtherWrapper",
-			"link": "https://harmony.etherscan.io/address/0x84dA690a22c60974851Fb4d605E214DE4445FdF2",
-			"timestamp": "2024-07-07T21:46:26.468Z",
+			"link": "https://harmony.etherscan.io/address/0x3AebF4315956fa2193742f2d6B439e96754bf8D2",
+			"timestamp": "2024-07-24T20:59:34.193Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"CollateralUtil": {
 			"name": "CollateralUtil",
-			"address": "0x9f235b35aD426328A1A9d579aac91BEa3F033ABA",
+			"address": "0x46AAdb135455E77364746cAD3cF06F8227F169D3",
 			"source": "CollateralUtil",
-			"link": "https://harmony.etherscan.io/address/0x9f235b35aD426328A1A9d579aac91BEa3F033ABA",
-			"timestamp": "2024-07-07T21:46:31.744Z",
+			"link": "https://harmony.etherscan.io/address/0x46AAdb135455E77364746cAD3cF06F8227F169D3",
+			"timestamp": "2024-07-24T20:59:39.404Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"CollateralManagerState": {
 			"name": "CollateralManagerState",
-			"address": "0x47cdeeaDb9d3C6c8472d4E363Eb779230a84472c",
+			"address": "0xfBC98F24EB92A7a2F239A847b88F7614Ed6D8A7f",
 			"source": "CollateralManagerState",
-			"link": "https://harmony.etherscan.io/address/0x47cdeeaDb9d3C6c8472d4E363Eb779230a84472c",
-			"timestamp": "2024-07-07T21:46:37.019Z",
+			"link": "https://harmony.etherscan.io/address/0xfBC98F24EB92A7a2F239A847b88F7614Ed6D8A7f",
+			"timestamp": "2024-07-24T20:59:44.632Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
@@ -883,16 +883,16 @@
 		},
 		"CollateralManager": {
 			"name": "CollateralManager",
-			"address": "0xB108941BB564D230C22E871fa9aB2fFEACD08876",
+			"address": "0xe08742Bc7d57C5251dc0DC1D707928f5F33e3c73",
 			"source": "CollateralManager",
-			"link": "https://harmony.etherscan.io/address/0xB108941BB564D230C22E871fa9aB2fFEACD08876",
-			"timestamp": "2024-07-07T21:46:42.361Z",
+			"link": "https://harmony.etherscan.io/address/0xe08742Bc7d57C5251dc0DC1D707928f5F33e3c73",
+			"timestamp": "2024-07-24T20:59:49.931Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x47cdeeaDb9d3C6c8472d4E363Eb779230a84472c",
+				"0xfBC98F24EB92A7a2F239A847b88F7614Ed6D8A7f",
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e",
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6",
 				"75000000000000000000000000",
 				"200000000000000000",
 				"158443823",
@@ -901,16 +901,16 @@
 		},
 		"CollateralEth": {
 			"name": "CollateralEth",
-			"address": "0x61C36809F2f3D18De9C6a53b4D4c21cCa052E2b9",
+			"address": "0x97669629Fc5520EB49D64aC39fbE539d8909289A",
 			"source": "CollateralEth",
-			"link": "https://harmony.etherscan.io/address/0x61C36809F2f3D18De9C6a53b4D4c21cCa052E2b9",
-			"timestamp": "2024-07-07T21:46:47.712Z",
+			"link": "https://harmony.etherscan.io/address/0x97669629Fc5520EB49D64aC39fbE539d8909289A",
+			"timestamp": "2024-07-24T20:59:55.227Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0xB108941BB564D230C22E871fa9aB2fFEACD08876",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e",
+				"0xe08742Bc7d57C5251dc0DC1D707928f5F33e3c73",
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6",
 				"0x7345544800000000000000000000000000000000000000000000000000000000",
 				"1300000000000000000",
 				"2000000000000000000"
@@ -918,35 +918,35 @@
 		},
 		"CollateralErc20": {
 			"name": "CollateralErc20",
-			"address": "0xC2d172Ab7000b36923ABc2f78A809db4CA61CD92",
+			"address": "0x1B35a276B79F0e09bbF3fa01ABce0A407E00c15D",
 			"source": "CollateralErc20",
-			"link": "https://harmony.etherscan.io/address/0xC2d172Ab7000b36923ABc2f78A809db4CA61CD92",
-			"timestamp": "2024-07-07T21:49:42.833Z",
+			"link": "https://harmony.etherscan.io/address/0x1B35a276B79F0e09bbF3fa01ABce0A407E00c15D",
+			"timestamp": "2024-07-24T21:00:00.586Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0xB108941BB564D230C22E871fa9aB2fFEACD08876",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e",
+				"0xe08742Bc7d57C5251dc0DC1D707928f5F33e3c73",
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6",
 				"0x7342544300000000000000000000000000000000000000000000000000000000",
 				"1300000000000000000",
 				"50000000000000000",
-				"0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a",
+				"0x41CA97b94D5deE79195856034D196dDfa0D43EDD",
 				8
 			]
 		},
 		"CollateralShort": {
 			"name": "CollateralShort",
-			"address": "0x0d83eA2107Fa1EdDA617801641923E37a24baA3A",
+			"address": "0xcd17D7F6D162DFafEcC3CAB7FaF0B50D5Bca55f3",
 			"source": "CollateralShort",
-			"link": "https://harmony.etherscan.io/address/0x0d83eA2107Fa1EdDA617801641923E37a24baA3A",
-			"timestamp": "2024-07-07T21:49:48.182Z",
+			"link": "https://harmony.etherscan.io/address/0xcd17D7F6D162DFafEcC3CAB7FaF0B50D5Bca55f3",
+			"timestamp": "2024-07-24T21:00:05.941Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
 				"0x98f0c3D42b8DaFB1f73d8F105344C6a4434a0109",
-				"0xB108941BB564D230C22E871fa9aB2fFEACD08876",
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e",
+				"0xe08742Bc7d57C5251dc0DC1D707928f5F33e3c73",
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6",
 				"0x7355534400000000000000000000000000000000000000000000000000000000",
 				"1200000000000000000",
 				"1000000000000000000000"
@@ -954,32 +954,32 @@
 		},
 		"FuturesMarketManager": {
 			"name": "FuturesMarketManager",
-			"address": "0xcAD93223233aaBAefbF6C34B91465203E4E5D343",
+			"address": "0xAae8346d9B95c87007313b3871C99E0BeAF2a810",
 			"source": "EmptyFuturesMarketManager",
-			"link": "https://harmony.etherscan.io/address/0xcAD93223233aaBAefbF6C34B91465203E4E5D343",
-			"timestamp": "2024-07-07T21:49:53.374Z",
+			"link": "https://harmony.etherscan.io/address/0xAae8346d9B95c87007313b3871C99E0BeAF2a810",
+			"timestamp": "2024-07-24T21:00:11.139Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": []
 		},
 		"SynthUtil": {
 			"name": "SynthUtil",
-			"address": "0x892F4e87f554528fEE1c43A26f71f2AF8B08f899",
+			"address": "0x3381538f38C39C435088eC8ACff53B7551981933",
 			"source": "SynthUtil",
-			"link": "https://harmony.etherscan.io/address/0x892F4e87f554528fEE1c43A26f71f2AF8B08f899",
-			"timestamp": "2024-07-07T21:49:58.667Z",
+			"link": "https://harmony.etherscan.io/address/0x3381538f38C39C435088eC8ACff53B7551981933",
+			"timestamp": "2024-07-24T21:00:16.374Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
-				"0x9d72756C9E5D2926A630DD6C31E846A1c81fAc2e"
+				"0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6"
 			]
 		},
 		"DappMaintenance": {
 			"name": "DappMaintenance",
-			"address": "0x9c0E02b8d001bf330E17363f383aA457A4d1E1c9",
+			"address": "0x29eF00d52A0F6E1fb9a9556705763b6554705901",
 			"source": "DappMaintenance",
-			"link": "https://harmony.etherscan.io/address/0x9c0E02b8d001bf330E17363f383aA457A4d1E1c9",
-			"timestamp": "2024-07-07T21:50:03.911Z",
+			"link": "https://harmony.etherscan.io/address/0x29eF00d52A0F6E1fb9a9556705763b6554705901",
+			"timestamp": "2024-07-24T21:00:21.735Z",
 			"txn": "",
 			"network": "harmony",
 			"constructorArgs": [
