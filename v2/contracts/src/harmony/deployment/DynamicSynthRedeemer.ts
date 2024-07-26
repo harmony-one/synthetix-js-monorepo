@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'DynamicSynthRedeemer';
-export const address = '0x0538885d6349980F7fFA326D6012e423D065c584';
+export const address = '0x7e3D7c52D8874D243DC2e4334Dc60943D3A2D3EC';
 export const source = 'DynamicSynthRedeemer';
 export const abi = [
   'constructor(address _owner, address _resolver)',

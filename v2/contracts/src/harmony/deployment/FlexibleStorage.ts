@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'FlexibleStorage';
-export const address = '0x0093bB8b50232F6B59EaF083912500613119E81A';
+export const address = '0x81Df3c28489b8126C60b739138D34269BDdd6385';
 export const source = 'FlexibleStorage';
 export const abi = [
   'constructor(address _resolver)',

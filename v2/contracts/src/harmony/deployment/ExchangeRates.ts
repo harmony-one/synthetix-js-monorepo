@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'ExchangeRates';
-export const address = '0x8a63c979b601c8c1E31d77046f4bb0e39F681DC0';
+export const address = '0x3451FC3EBe825E5550144D233b020d23f707e085';
 export const source = 'ExchangeRatesWithDexPricing';
 export const abi = [
   'constructor(address _owner, address _resolver)',

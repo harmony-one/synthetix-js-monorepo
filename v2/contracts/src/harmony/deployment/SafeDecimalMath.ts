@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SafeDecimalMath';
-export const address = '0x81DB92505F5b38CB5084049B6086b4D43f70D3C1';
+export const address = '0x4caEf1f19Ee276d333eA944eB943fe1cDD9436ca';
 export const source = 'SafeDecimalMath';
 export const abi = [
   'function PRECISE_UNIT() view returns (uint256)',

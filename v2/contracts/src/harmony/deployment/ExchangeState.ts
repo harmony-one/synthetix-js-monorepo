@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'ExchangeState';
-export const address = '0x50272BdA49658d0Af51c713FEb1324b32233467c';
+export const address = '0xfA0c7Dc47B325BB68631101A1F6985EAE19e79f9';
 export const source = 'ExchangeState';
 export const abi = [
   'constructor(address _owner, address _associatedContract)',

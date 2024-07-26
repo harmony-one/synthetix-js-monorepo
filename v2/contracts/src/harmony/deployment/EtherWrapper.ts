@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'EtherWrapper';
-export const address = '0x9b83f02bBa84DB6C71Aa5873816442734E35F653';
+export const address = '0x464a516e3105Db6408DBabb825C830c8ffE8398c';
 export const source = 'EtherWrapper';
 export const abi = [
   'constructor(address _owner, address _resolver, address _WETH)',

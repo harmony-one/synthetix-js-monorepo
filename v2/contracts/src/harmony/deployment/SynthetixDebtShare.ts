@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SynthetixDebtShare';
-export const address = '0x296950A546CE6dcB54679344357Dc68b13f08AdA';
+export const address = '0x5E8beD3F4c2e978da458EfA3968417d184Aa7d74';
 export const source = 'SynthetixDebtShare';
 export const abi = [
   'constructor(address _owner, address _resolver)',

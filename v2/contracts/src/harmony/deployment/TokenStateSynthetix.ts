@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'TokenStateSynthetix';
-export const address = '0x1124aD4D2C6a05BfB6cfc1878e756c5e2435C0A7';
+export const address = '0xd6E71Ca654e5068960a8Ea263303e6DE217396d6';
 export const source = 'LegacyTokenState';
 export const abi = [
   'constructor(address _owner, address _associatedContract)',

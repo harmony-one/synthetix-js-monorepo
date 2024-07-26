@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SynthetixBridgeToOptimism';
-export const address = '0x286b4C48bCC9C572D4626Ae697DcCF2085dE1866';
+export const address = '0x9e40453DC80b5a276b1Ad2eE40e71A0E9849679c';
 export const source = 'SynthetixBridgeToOptimism';
 export const abi = [
   'constructor(address _owner, address _resolver)',

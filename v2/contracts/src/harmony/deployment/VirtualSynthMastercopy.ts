@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'VirtualSynthMastercopy';
-export const address = '0xDA570799Fc2fD1c8aB855C3046D9BAb2EB86e3c7';
+export const address = '0x07ff20FB6e897DC2a0d0e6A9Acb30FC5CA9f1876';
 export const source = 'VirtualSynthMastercopy';
 export const abi = [
   'constructor()',

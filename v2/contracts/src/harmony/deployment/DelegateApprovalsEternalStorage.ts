@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'DelegateApprovalsEternalStorage';
-export const address = '0xdFA251F863A6Ab601899405D3fC6bfdbDbb12b9F';
+export const address = '0x449f9F150A1261f026A3a5FBab8DAda087081e17';
 export const source = 'EternalStorage';
 export const abi = [
   'constructor(address _owner, address _associatedContract)',

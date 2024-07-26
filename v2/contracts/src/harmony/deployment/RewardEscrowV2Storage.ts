@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'RewardEscrowV2Storage';
-export const address = '0x5F3fD3ef991705A47d641C66B7B0e918Ab20B133';
+export const address = '0x39B5cfeDd40dA6EaE4422763e407cA77EF81209D';
 export const source = 'RewardEscrowV2Storage';
 export const abi = [
   'constructor(address _owner, address _associatedContract)',

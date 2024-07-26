@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'RewardsDistribution';
-export const address = '0xdBDDad4256A9D684e629d49894513a98858255bF';
+export const address = '0x9000B1843701ac02E8EDff4d9b9Ebbb9e9cdEA83';
 export const source = 'RewardsDistribution';
 export const abi = [
   'constructor(address _owner, address _authority, address _synthetixProxy, address _rewardEscrow, address _feePoolProxy)',

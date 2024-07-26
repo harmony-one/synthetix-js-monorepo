@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'OwnerRelayOnEthereum';
-export const address = '0x28939213B2AaDee110DC32FFF9086381ee5598bc';
+export const address = '0x7ea2b9E2e0c2b13990AB62571F3cB70a52FAA6AC';
 export const source = 'OwnerRelayOnEthereum';
 export const abi = [
   'constructor(address _owner, address _resolver)',

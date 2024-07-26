@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'FeePool';
-export const address = '0xDe53410Bb4561b10d29fb5882F181c446397fc88';
+export const address = '0x44305a0c5CB3F5727C51F154826038cf04dE2B7E';
 export const source = 'FeePool';
 export const abi = [
   'constructor(address _proxy, address _owner, address _resolver)',

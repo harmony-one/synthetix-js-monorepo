@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'EscrowChecker';
-export const address = '0x1a99D547D05E36c9A02fe7cbDbbc8A6e35AFB4C7';
+export const address = '0xfE67240fD5b4A6781b57Cd19290C919cec57232c';
 export const source = 'EscrowChecker';
 export const abi = [
   'constructor(address _esc)',

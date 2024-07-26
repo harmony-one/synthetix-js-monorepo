@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'TokenStatesETH';
-export const address = '0x7B8b6717fF463b861Ef6077394Be3AE23273219c';
+export const address = '0x109684a1a0D75db78C791c2deA16B67A7976C770';
 export const source = 'TokenState';
 export const abi = [
   'constructor(address _owner, address _associatedContract)',

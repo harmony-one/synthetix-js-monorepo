@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'ExchangeSettlementLib';
-export const address = '0x2d6d269089819b802e57036b8A83792F504cdD60';
+export const address = '0x4aAbC3d933315363826055343C7cBc4403C7A847';
 export const source = 'ExchangeSettlementLib';
 export const abi = [
   'event ExchangeEntryAppended(address indexed account, bytes32 src, uint256 amount, bytes32 dest, uint256 amountReceived, uint256 exchangeFeeRate, uint256 roundIdForSrc, uint256 roundIdForDest)',

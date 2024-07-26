@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'DebtMigratorOnEthereum';
-export const address = '0x86dfa73FbCa910583DaF6684f8e5eF0fb7f8ae19';
+export const address = '0x1694E15D16d49Cba5A8E5cDf012141b777EfceCb';
 export const source = 'DebtMigratorOnEthereum';
 export const abi = [
   'constructor(address _owner, address _resolver)',
