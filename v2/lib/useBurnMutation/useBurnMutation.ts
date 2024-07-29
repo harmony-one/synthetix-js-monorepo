@@ -66,7 +66,7 @@ export function useBurnMutation(burnArgs: BurnArgs) {
         const populatedTxn = await populateTransaction();
         const txn = await Synthetix.signer.sendTransaction({
           ...populatedTxn,
-          ...gasOptionsForTransaction,
+          // ...gasOptionsForTransaction,
         });
         dispatch({ type: 'pending', payload: { txnHash: txn.hash } });
         await txn.wait();
