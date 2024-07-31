@@ -30,6 +30,7 @@ import {
   // InfoOutline,
   InfoOutline,
 } from '@snx-v2/icons';
+import { HarmonyIcon } from '../icons/HarmonyIcon';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { formatNumberToUsd, truncateAddress } from '@synthetixio/formatters';
@@ -70,7 +71,7 @@ const activeIcon = (currentNetwork: NetworkId) => {
     case 420:
       return { icon: <OptimismIcon />, name: 'Optimistic Goerli' };
     case 1666600000:
-      return { icon: <EthereumIcon />, name: 'Harmony' };
+      return { icon: <HarmonyIcon />, name: 'Harmony' };
 
     default:
       return { icon: <FailedIcon width="24px" height="24px" />, name: 'Unsupported Network' };
@@ -159,7 +160,7 @@ export const NavigationUI = ({
                 </MenuButton>
                 <MenuList>
                   <MenuItem onClick={() => switchNetwork(NetworkIdByName.harmony)}>
-                    <EthereumIcon />
+                    <HarmonyIcon />
                     <Text variant="nav" ml={2}>
                       Harmony
                     </Text>
