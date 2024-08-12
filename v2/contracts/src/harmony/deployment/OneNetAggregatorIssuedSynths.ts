@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'OneNetAggregatorIssuedSynths';
-export const address = '0x8CC656De01980400C1D83B3F69cD5087208c77B7';
+export const address = '0xD3C8ED07Df3C44dfa465379D3c6ec25F8B36676b';
 export const source = 'OneNetAggregatorIssuedSynths';
 export const abi = [
   'constructor(address _resolver)',

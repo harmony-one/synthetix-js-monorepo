@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'FeePoolEternalStorage';
-export const address = '0xEce0eDc09f46B6bcf6b30831959b810d693DDff3';
+export const address = '0x10b86E0E0C1A61e6e72F26151f3D3FEc1051e8dd';
 export const source = 'FeePoolEternalStorage';
 export const abi = [
   'constructor(address _owner, address _feePool)',

@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'OneNetAggregatorDebtRatio';
-export const address = '0x3F9197c940f1Ffa150C6f44b215FF863d32eCdAF';
+export const address = '0x514e67eD84DeeE24D5AF85a79fD5c292815f6Bd0';
 export const source = 'OneNetAggregatorDebtRatio';
 export const abi = [
   'constructor(address _resolver)',

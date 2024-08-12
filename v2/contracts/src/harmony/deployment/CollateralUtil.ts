@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'CollateralUtil';
-export const address = '0x46AAdb135455E77364746cAD3cF06F8227F169D3';
+export const address = '0xecc65CeaaDa93c6D3C4Fb6639865a9fB6Be26225';
 export const source = 'CollateralUtil';
 export const abi = [
   'constructor(address _resolver)',

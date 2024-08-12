@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'ReadProxyAddressResolver';
-export const address = '0xc42de52F3C77aC07B2C6dba8c5b7784FCD9338E6';
+export const address = '0x47830943a4Db6aaC4303F00B0c268f2Aa5326f95';
 export const source = 'ReadProxy';
 export const abi = [
   'constructor(address _owner)',

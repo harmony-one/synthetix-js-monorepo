@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'ExchangeCircuitBreaker';
-export const address = '0x983305787172c8d9ac83D7587ef0fCC0D8325D37';
+export const address = '0x977A16A032fB04a8423523ad3404BA8290473359';
 export const source = 'ExchangeCircuitBreaker';
 export const abi = [
   'constructor(address _owner, address _resolver)',

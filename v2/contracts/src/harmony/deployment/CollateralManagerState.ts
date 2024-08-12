@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'CollateralManagerState';
-export const address = '0xfBC98F24EB92A7a2F239A847b88F7614Ed6D8A7f';
+export const address = '0x104D53f4427ee388c1AfaC2d4F59eF8FF515a17D';
 export const source = 'CollateralManagerState';
 export const abi = [
   'constructor(address _owner, address _associatedContract)',

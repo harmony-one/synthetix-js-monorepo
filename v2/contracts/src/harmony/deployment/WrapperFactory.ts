@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'WrapperFactory';
-export const address = '0xde82aA833bdfDeA96Ae1Eb220FD5e13FE5FD0D37';
+export const address = '0x480a3819bB5a23A14505874fa0F13aAe0Ca230B8';
 export const source = 'WrapperFactory';
 export const abi = [
   'constructor(address _owner, address _resolver)',

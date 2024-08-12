@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'FuturesMarketManager';
-export const address = '0xAae8346d9B95c87007313b3871C99E0BeAF2a810';
+export const address = '0xc7509A0e6862c6d68250886e6B5E8b8887b77E59';
 export const source = 'EmptyFuturesMarketManager';
 export const abi = [
   'function CONTRACT_NAME() view returns (bytes32)',

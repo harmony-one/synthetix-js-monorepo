@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'Depot';
-export const address = '0x5298b5BBb7F36d72062988700651547F9d55E817';
+export const address = '0xbda289a8d88168eAA569C3c9e33D0B40944433e6';
 export const source = 'Depot';
 export const abi = [
   'constructor(address _owner, address _fundsWallet, address _resolver)',

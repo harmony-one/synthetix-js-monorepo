@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'Exchanger';
-export const address = '0x6cfa5D9334E19046D5889E0326c90ad298323048';
+export const address = '0x4Da200Ca86Ea3aEe38a1665EE40CE463074995cB';
 export const source = 'ExchangerWithFeeRecAlternatives';
 export const abi = [
   'constructor(address _owner, address _resolver)',

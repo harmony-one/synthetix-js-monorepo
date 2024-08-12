@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SynthsUSD';
-export const address = '0x0eC0b86ca2126C38227C554A916AA9Cc8da185Fd';
+export const address = '0x78AF664D4401Ca946fA6560663E12b076dF2902a';
 export const source = 'MultiCollateralSynth';
 export const abi = [
   'constructor(address _proxy, address _tokenState, string _tokenName, string _tokenSymbol, address _owner, bytes32 _currencyKey, uint256 _totalSupply, address _resolver)',

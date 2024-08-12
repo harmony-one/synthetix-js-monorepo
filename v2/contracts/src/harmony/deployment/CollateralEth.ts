@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'CollateralEth';
-export const address = '0x97669629Fc5520EB49D64aC39fbE539d8909289A';
+export const address = '0xfc8aC16e3c7Edaa6832CFFE7e57BBF58091c1A50';
 export const source = 'CollateralEth';
 export const abi = [
   'constructor(address _owner, address _manager, address _resolver, bytes32 _collateralKey, uint256 _minCratio, uint256 _minCollateral)',

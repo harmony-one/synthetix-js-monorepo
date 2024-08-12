@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'CollateralManager';
-export const address = '0xe08742Bc7d57C5251dc0DC1D707928f5F33e3c73';
+export const address = '0x805B38A5DF02173A633a850489A7E04C5747A43E';
 export const source = 'CollateralManager';
 export const abi = [
   'constructor(address _state, address _owner, address _resolver, uint256 _maxDebt, uint256 _maxSkewRate, uint256 _baseBorrowRate, uint256 _baseShortRate)',

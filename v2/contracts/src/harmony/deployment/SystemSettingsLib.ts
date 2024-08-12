@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SystemSettingsLib';
-export const address = '0x521539d28629fF6117619199bff8E5740580c76b';
+export const address = '0x9d488aFe49f06162e53062F3be926E57Cc894270';
 export const source = 'SystemSettingsLib';
 export const abi = [
   'function MAX_ATOMIC_TWAP_WINDOW() view returns (uint256)',

@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'DappMaintenance';
-export const address = '0x29eF00d52A0F6E1fb9a9556705763b6554705901';
+export const address = '0xf986193bEb147809563aC0f2B2D044Bb4fED28AD';
 export const source = 'DappMaintenance';
 export const abi = [
   'constructor(address _owner)',

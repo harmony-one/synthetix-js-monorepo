@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SynthetixEscrow';
-export const address = '0x2aBc1b028dfd4123761ae197934Ad89224F761AC';
+export const address = '0x4D5f48CFa4924Ff318f7B766bFe8A65fA2b6bd32';
 export const source = 'SynthetixEscrow';
 export const abi = [
   'constructor(address _owner, address _synthetix)',

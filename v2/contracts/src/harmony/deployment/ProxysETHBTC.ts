@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'ProxysETHBTC';
-export const address = '0xaf62baF9C4583E88ad3485e578e94D59bcAF6E85';
+export const address = '0x6ea0f40b596186E5199d86a910A35451b1969520';
 export const source = 'ProxyERC20';
 export const abi = [
   'constructor(address _owner)',

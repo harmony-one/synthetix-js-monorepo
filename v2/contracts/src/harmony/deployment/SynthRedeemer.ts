@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SynthRedeemer';
-export const address = '0x3DEf35DAAA7D7EaE71786a2A0f2520d7812cFb1b';
+export const address = '0xc9F6236FFe2B8BABA33f6B97D83CE539615409d0';
 export const source = 'SynthRedeemer';
 export const abi = [
   'constructor(address _resolver)',

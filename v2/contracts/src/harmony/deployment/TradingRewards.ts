@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'TradingRewards';
-export const address = '0xc0bb987bdd3dD985d38311eAD7245f8f8550e0d8';
+export const address = '0x1f3E67C00044E8ac63303EaDA53D4A42C2B21737';
 export const source = 'TradingRewards';
 export const abi = [
   'constructor(address owner, address periodController, address resolver)',

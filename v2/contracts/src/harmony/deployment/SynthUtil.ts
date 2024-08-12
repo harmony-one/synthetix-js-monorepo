@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SynthUtil';
-export const address = '0x3381538f38C39C435088eC8ACff53B7551981933';
+export const address = '0xce72aED89B8A034f19Ae16EB955fFbF40e00a14B';
 export const source = 'SynthUtil';
 export const abi = [
   'constructor(address resolver)',

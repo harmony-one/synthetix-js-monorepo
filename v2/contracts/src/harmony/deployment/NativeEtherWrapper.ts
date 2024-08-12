@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'NativeEtherWrapper';
-export const address = '0x3AebF4315956fa2193742f2d6B439e96754bf8D2';
+export const address = '0x3b2A07a06314B1329E68a7abfd0BcBfe3FA43882';
 export const source = 'NativeEtherWrapper';
 export const abi = [
   'constructor(address _owner, address _resolver)',

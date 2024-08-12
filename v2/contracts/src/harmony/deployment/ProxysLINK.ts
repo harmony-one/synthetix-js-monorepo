@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'ProxysLINK';
-export const address = '0xc71F6629CF2fb995A4Ac46d9D6E4d80E14A9bc95';
+export const address = '0x42d44E5637cF647331a6b28e0730Ea3991f3fCc6';
 export const source = 'ProxyERC20';
 export const abi = [
   'constructor(address _owner)',

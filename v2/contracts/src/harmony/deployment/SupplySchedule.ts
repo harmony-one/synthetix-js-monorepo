@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'SupplySchedule';
-export const address = '0xbD3959ee78B36cD89E5BB5BfCCd535f90447A63a';
+export const address = '0x86A007FD3BFfA27C96e64F78ebf782C7F229e01D';
 export const source = 'SupplySchedule';
 export const abi = [
   'constructor(address _owner, uint256 _lastMintEvent, uint256 _currentWeek)',

@@ -1,7 +1,7 @@
 // !!! DO NOT EDIT !!! Automatically generated file
 
 export const name = 'DirectIntegrationManager';
-export const address = '0x2e603A2A7d8A4dA2ee18707aC84Dbd04c15B834E';
+export const address = '0x188A88bEECAFbA5526c2B0F992B73012952496fA';
 export const source = 'DirectIntegrationManager';
 export const abi = [
   'constructor(address _owner, address _resolver)',
