@@ -92,11 +92,11 @@ export const Balances = ({ onClose }: BalancesProps) => {
   const snxBalance: BalanceObject | undefined =
     debtData && exchangeRateData
       ? {
-          currencyKey: 'SNX',
+          currencyKey: '1SY',
           balance: debtData.collateral.toNumber(),
           usdBalance: debtData.collateral.mul(exchangeRateData.SNX || 0).toNumber(),
           icon: <SNXIcon width="34px" height="34px" />,
-          description: 'Synthetix Network Token',
+          description: 'SY Network Token',
         }
       : undefined;
 
