@@ -5,146 +5,146 @@ import {
   name as SynthsAAVEMainnet,
   address as SynthsAAVEAddressMainnet,
   abi as SynthsAAVEAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsAAVE';
+} from '../../contracts/build/mainnet/deployment/SynthsAAVE';
 
 import {
   name as SynthsADAMainnet,
   address as SynthsADAAddressMainnet,
   abi as SynthsADAAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsADA';
+} from '../../contracts/build/mainnet/deployment/SynthsADA';
 
 import {
   name as SynthsAUDMainnet,
   address as SynthsAUDAddressMainnet,
   abi as SynthsAUDAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsAUD';
+} from '../../contracts/build/mainnet/deployment/SynthsAUD';
 
 import {
   name as SynthsBTCMainnet,
   address as SynthsBTCAddressMainnet,
   abi as SynthsBTCAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsBTC';
+} from '../../contracts/build/mainnet/deployment/SynthsBTC';
 
 import {
   name as SynthsCHFMainnet,
   address as SynthsCHFAddressMainnet,
   abi as SynthsCHFAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsCHF';
+} from '../../contracts/build/mainnet/deployment/SynthsCHF';
 
 import {
   name as SynthsDOTMainnet,
   address as SynthsDOTAddressMainnet,
   abi as SynthsDOTAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsDOT';
+} from '../../contracts/build/mainnet/deployment/SynthsDOT';
 
 import {
   name as SynthsETHMainnet,
   address as SynthsETHAddressMainnet,
   abi as SynthsETHAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsETH';
+} from '../../contracts/build/mainnet/deployment/SynthsETH';
 
 import {
   name as SynthsETHBTCMainnet,
   address as SynthsETHBTCAddressMainnet,
   abi as SynthsETHBTCAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsETHBTC';
+} from '../../contracts/build/mainnet/deployment/SynthsETHBTC';
 
 import {
   name as SynthsEURMainnet,
   address as SynthsEURAddressMainnet,
   abi as SynthsEURAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsEUR';
+} from '../../contracts/build/mainnet/deployment/SynthsEUR';
 
 import {
   name as SynthsGBPMainnet,
   address as SynthsGBPAddressMainnet,
   abi as SynthsGBPAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsGBP';
+} from '../../contracts/build/mainnet/deployment/SynthsGBP';
 
 import {
   name as SynthsJPYMainnet,
   address as SynthsJPYAddressMainnet,
   abi as SynthsJPYAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsJPY';
+} from '../../contracts/build/mainnet/deployment/SynthsJPY';
 
 import {
   name as SynthsKRWMainnet,
   address as SynthsKRWAddressMainnet,
   abi as SynthsKRWAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsKRW';
+} from '../../contracts/build/mainnet/deployment/SynthsKRW';
 
 import {
   name as SynthsLinkMainnet,
   address as SynthsLinkAddressMainnet,
   abi as SynthsLinkAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsLINK';
+} from '../../contracts/build/mainnet/deployment/SynthsLINK';
 
 import {
   name as SynthsUSDMainnet,
   address as SynthsUSDAddressMainnet,
   abi as SynthsUSDAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthsUSD';
+} from '../../contracts/build/mainnet/deployment/SynthsUSD';
 
 // Mainnet OVM
 import {
   name as SynthsAAVEMainnetOvm,
   address as SynthsAAVEAddressMainnetOvm,
   abi as SynthsAAVEAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsAAVE';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsAAVE';
 
 import {
   name as SynthsAVAXMainnetOvm,
   address as SynthsAVAXAddressMainnetOvm,
   abi as SynthsAVAXAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsAVAX';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsAVAX';
 
 import {
   name as SynthsBTCMainnetOvm,
   address as SynthsBTCAddressMainnetOvm,
   abi as SynthsBTCAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsBTC';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsBTC';
 
 import {
   name as SynthsMATICMainnetOvm,
   address as SynthsMATICAddressMainnetOvm,
   abi as SynthsMATICAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsMATIC';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsMATIC';
 
 import {
   name as SynthsSOLMainnetOvm,
   address as SynthsSOLAddressMainnetOvm,
   abi as SynthsSOLAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsSOL';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsSOL';
 
 import {
   name as SynthsETHMainnetOvm,
   address as SynthsETHAddressMainnetOvm,
   abi as SynthsETHAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsETH';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsETH';
 
 import {
   name as SynthsUNIMainnetOvm,
   address as SynthsUNIAddressMainnetOvm,
   abi as SynthsUNIAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsUNI';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsUNI';
 
 import {
   name as SynthsEURMainnetOvm,
   address as SynthsEURAddressMainnetOvm,
   abi as SynthsEURAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsEUR';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsEUR';
 
 import {
   name as SynthsLinkMainnetOvm,
   address as SynthsLinkAddressMainnetOvm,
   abi as SynthsLinkAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsLINK';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsLINK';
 
 import {
   name as SynthsUSDMainnetOvm,
   address as SynthsUSDAddressMainnetOvm,
   abi as SynthsUSDAbiMainnetOvm,
-} from '@synthetixio/contracts/build/mainnet-ovm/deployment/SynthsUSD';
+} from '../../contracts/build/mainnet-ovm/deployment/SynthsUSD';
 
 export const contracts = {
   SynthsAAVE: {

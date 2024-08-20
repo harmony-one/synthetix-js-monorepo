@@ -65,7 +65,8 @@ export function useMintMutation(mintArgs: MintArgs) {
         dispatch({ type: 'prompting' });
         const txn = await Synthetix.signer.sendTransaction({
           ...populatedTransaction,
-          ...gasOptionsForTransaction,
+          // harmony-fix: Disable gas options
+          // ...gasOptionsForTransaction,
         });
         dispatch({ type: 'pending', payload: { txnHash: txn.hash } });
         await txn.wait();

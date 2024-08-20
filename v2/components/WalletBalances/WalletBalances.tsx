@@ -422,8 +422,8 @@ const getNonSynthDataForTable = (
   return [
     {
       icon: <SNXIcon />,
-      currencyKey: 'SNX',
-      description: 'Synthetix Network Token',
+      currencyKey: '1SY',
+      description: 'SY Network Token',
       balance: collateral?.toNumber(),
       price: snxRate?.toNumber(),
       usdBalance: snxRate && collateral ? snxRate?.mul(collateral).toNumber() : undefined,

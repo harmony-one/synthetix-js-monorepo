@@ -5,14 +5,16 @@ import { Provider } from '@ethersproject/providers';
 import { isSupportedNetworkId, NetworkNameById, NetworkIdByName } from './common';
 import { ContractContext } from '@snx-v2/ContractContext';
 
-import type { RewardEscrowV2 } from '@synthetixio/contracts/build/mainnet/deployment/RewardEscrowV2';
-import type { RewardEscrowV2 as RewardEscrowV2Ovm } from '@synthetixio/contracts/build/mainnet-ovm/deployment/RewardEscrowV2';
+import type { RewardEscrowV2 } from '../../contracts/build/mainnet/deployment/RewardEscrowV2';
+import type { RewardEscrowV2 as RewardEscrowV2Ovm } from '../../contracts/build/mainnet-ovm/deployment/RewardEscrowV2';
+import type { RewardEscrowV2 as RewardEscrowHarmony } from '../../contracts/src/harmony/deployment/RewardEscrowV2';
 import { SignerContext } from '@snx-v2/SignerContext';
-import { useGlobalProvidersWithFallback } from '@synthetixio/use-global-providers';
+import { useGlobalProvidersWithFallback } from '../../lib/useGlobalProvidersWithFallback';
 
 const contracts = {
-  mainnet: () => import('@synthetixio/contracts/build/mainnet/deployment/RewardEscrowV2'),
-  'mainnet-ovm': () => import('@synthetixio/contracts/build/mainnet-ovm/deployment/RewardEscrowV2'),
+  mainnet: () => import('../../contracts/build/mainnet-ovm/deployment/RewardEscrowV2'),
+  'mainnet-ovm': () => import('../../contracts/build/mainnet-ovm/deployment/RewardEscrowV2'),
+  'harmony': () => import('../../contracts/src/harmony/deployment/RewardEscrowV2'),
 };
 
 export const getRewardEscrowV2 = async ({
@@ -34,7 +36,8 @@ export const getRewardEscrowV2 = async ({
   const { address, abi } = await contracts[networkName]();
   const contract = new ethers.Contract(address, abi, signerOrProvider) as
     | RewardEscrowV2
-    | RewardEscrowV2Ovm;
+    | RewardEscrowV2Ovm
+    | RewardEscrowHarmony;
   return contract;
 };
 export const useRewardEscrowV2 = () => {
@@ -49,7 +52,7 @@ export const useRewardEscrowV2 = () => {
         if (!networkId) throw Error('Network id required');
 
         const globalProvider =
-          networkId === NetworkIdByName.mainnet
+          networkId === NetworkIdByName.harmony
             ? globalProviders.mainnet
             : globalProviders.optimism;
         const provider = signer?.provider || globalProvider;

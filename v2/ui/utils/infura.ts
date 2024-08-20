@@ -1,4 +1,4 @@
-import { NetworkNameById, NetworkId } from '@synthetixio/contracts-interface';
+import { NetworkNameById, NetworkId } from '../../../packages/contracts-interface/src/types';
 
 export const GWEI_DECIMALS = 9;
 

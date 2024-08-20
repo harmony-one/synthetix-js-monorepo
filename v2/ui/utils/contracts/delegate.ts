@@ -3,7 +3,7 @@ import {
   name as DelegateApprovalsMainnet,
   address as DelegateApprovalsAddressMainnet,
   abi as DelegateApprovalsAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/DelegateApprovals';
+} from '../../contracts/build/mainnet/deployment/DelegateApprovals';
 import {
   name as DelegateApprovalsMainnetOvm,
   address as DelegateApprovalsAddressMainnetOvm,

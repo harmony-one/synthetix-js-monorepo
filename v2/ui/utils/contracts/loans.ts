@@ -3,7 +3,7 @@ import {
   name as CollateralEthMainnet,
   address as CollateralEthAddressMainnet,
   abi as CollateralEthAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/CollateralEth';
+} from '../../contracts/build/mainnet/deployment/CollateralEth';
 import {
   name as CollateralEthMainnetOvm,
   address as CollateralEthAddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as CollateralManagerMainnet,
   address as CollateralManagerAddressMainnet,
   abi as CollateralManagerAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/CollateralManager';
+} from '../../contracts/build/mainnet/deployment/CollateralManager';
 import {
   name as CollateralManagerMainnetOvm,
   address as CollateralManagerAddressMainnetOvm,
@@ -27,7 +27,7 @@ import {
   name as CollateralStateEthMainnet,
   address as CollateralStateEthAddressMainnet,
   abi as CollateralStateEthAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/CollateralStateEth';
+} from '../../contracts/build/mainnet/deployment/CollateralStateEth';
 
 export const contracts = {
   CollateralEth: {

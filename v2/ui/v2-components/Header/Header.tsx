@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from 'react';
-import { NetworkIdByName, NetworkId } from '@synthetixio/contracts-interface';
+import { NetworkIdByName, NetworkId } from '../../../../packages/contracts-interface/src/types';
 import { Navigation } from '@snx-v2/Navigation';
 import Connector from 'containers/Connector';
 

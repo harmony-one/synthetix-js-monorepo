@@ -3,7 +3,7 @@ import {
   name as ExchangeRatesMainnet,
   address as ExchangeRatesAddressMainnet,
   abi as ExchangeRatesAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/ExchangeRates';
+} from '../../contracts/build/mainnet/deployment/ExchangeRates';
 import {
   name as ExchangeRatesMainnetOvm,
   address as ExchangeRatesAddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as CollateralManagerMainnet,
   address as CollateralManagerAddressMainnet,
   abi as CollateralManagerAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/CollateralManager';
+} from '../../contracts/build/mainnet/deployment/CollateralManager';
 import {
   name as CollateralManagerMainnetOvm,
   address as CollateralManagerAddressMainnetOvm,
@@ -26,13 +26,13 @@ import {
   name as ShortingRewardsBTCMainnet,
   address as ShortingRewardsBTCAddressMainnet,
   abi as ShortingRewardsBTCAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/ShortingRewardssBTC';
+} from '../../contracts/build/mainnet/deployment/ShortingRewardssBTC';
 
 import {
   name as ShortingRewardsETHMainnet,
   address as ShortingRewardsETHAddressMainnet,
   abi as ShortingRewardsETHAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/ShortingRewardssETH';
+} from '../../contracts/build/mainnet/deployment/ShortingRewardssETH';
 
 export const contracts = {
   ExchangeRates: {

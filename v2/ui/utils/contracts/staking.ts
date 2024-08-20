@@ -3,7 +3,7 @@ import {
   name as FeePoolMainnet,
   address as FeePoolAddressMainnet,
   abi as FeePoolAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/FeePool';
+} from '../../contracts/build/mainnet/deployment/FeePool';
 import {
   name as FeePoolMainnetOvm,
   address as FeePoolAddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as ExchangeRatesMainnet,
   address as ExchangeRatesAddressMainnet,
   abi as ExchangeRatesAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/ExchangeRates';
+} from '../../contracts/build/mainnet/deployment/ExchangeRates';
 import {
   name as ExchangeRatesMainnetOvm,
   address as ExchangeRatesAddressMainnetOvm,
@@ -27,7 +27,7 @@ import {
   name as SynthetixMainnet,
   address as SynthetixAddressMainnet,
   abi as SynthetixAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/Synthetix';
+} from '../../contracts/build/mainnet/deployment/Synthetix';
 import {
   name as SynthetixMainnetOvm,
   address as SynthetixAddressMainnetOvm,
@@ -39,7 +39,7 @@ import {
   name as SynthetixStateMainnet,
   address as SynthetixStateAddressMainnet,
   abi as SynthetixStateAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthetixState';
+} from '../../contracts/build/mainnet/deployment/SynthetixState';
 import {
   name as SynthetixStateMainnetOvm,
   address as SynthetixStateAddressMainnetOvm,
@@ -51,7 +51,7 @@ import {
   name as IssuerMainnet,
   address as IssuerAddressMainnet,
   abi as IssuerAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/Issuer';
+} from '../../contracts/build/mainnet/deployment/Issuer';
 import {
   name as IssuerMainnetOvm,
   address as IssuerAddressMainnetOvm,
@@ -63,7 +63,7 @@ import {
   name as SystemSettingsMainnet,
   address as SystemSettingsAddressMainnet,
   abi as SystemSettingsAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SystemSettings';
+} from '../../contracts/build/mainnet/deployment/SystemSettings';
 import {
   name as SystemSettingsMainnetOvm,
   address as SystemSettingsAddressMainnetOvm,

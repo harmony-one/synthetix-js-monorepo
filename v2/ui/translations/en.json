@@ -11,12 +11,12 @@
       "currency": "Currency"
     },
     "home": {
-      "title": "Welcome to Synthetix",
-      "description": "Stake your SNX to borrow sUSD and contribute to the network collateral. If you’ve never staked before please read through this <0>quick introduction</0> first. Follow the steps below to get started.",
+      "title": "Welcome to SY",
+      "description": "Stake your 1SY to borrow sUSD and contribute to the network collateral. If you’ve never staked before please read through this <0>quick introduction</0> first. Follow the steps below to get started.",
       "action": "Read Introduction",
       "utilities": {
         "title": "sUSD Utilities",
-        "description": "Check out some of the protocols within the Synthetix Ecosystem. Be sure to review the provided user guides and understand the risks of each protocol!",
+        "description": "Check out some of the protocols within the SY Ecosystem. Be sure to review the provided user guides and understand the risks of each protocol!",
         "kwentaDescription": "Trade commodities, forex, crypto, and more with up to 25x leverage and deep liquidity.",
         "lyraDescription": "Lyra’s decentralized exchange is the easiest place to buy and sell options on cryptocurrencies.",
         "thalesDescription": "Trade various parimutuel markets like price up or down, sports markets, and others.",
@@ -31,13 +31,13 @@
       "epoch-mobile": "EPOCH",
       "epoch-desktop": "Epoch",
       "epoch-tooltip": "Time to next epoch",
-      "price-mobile": "SNX Price",
-      "price-desktop": "SNX:"
+      "price-mobile": "1SY Price",
+      "price-desktop": "1SY:"
     },
     "v2-home": {
       "box-links": {
         "bridge": {
-          "headline": "SNX Bridge",
+          "headline": "1SY Bridge",
           "subHeadline": "Transfer Asset between blockchains"
         },
         "hedge-debt": {
@@ -46,17 +46,17 @@
         },
         "help": {
           "headline": "Help",
-          "subHeadline": "Learn more about Synthetix"
+          "subHeadline": "Learn more about SY"
         }
       }
     },
     "main-action-cards": {
       "stake-headline": "Stake & Borrow",
-      "stake-body": "Borrow sUSD by staking your SNX.",
+      "stake-body": "Borrow sUSD by staking your 1SY.",
       "stake-more-button": "Stake & Borrow More",
       "stake-main-button": "Start Staking",
       "maintain-headline": "Maintain Collateralization Ratio",
-      "maintain-body": "Use the burn feature to maintain your c-ratio or completely pay off debt and unstake your SNX.",
+      "maintain-body": "Use the burn feature to maintain your c-ratio or completely pay off debt and unstake your 1SY.",
       "maintain-badge-success": "Adjust to collect weekly rewards",
       "maintain-badge-warning": "Your ratio is looking healthy!",
       "maintain-main-button": "Maintain",
@@ -66,12 +66,12 @@
       "collect-body": "Claim your liquidation rewards.",
       "collect-epoch": "Epoch",
       "collect-epoch-tooltip": "Time to next epoch, you currently don't have any rewards",
-      "collect-price": "SNX Price",
+      "collect-price": "1SY Price",
       "collect-main-healthy-button": "Claim your rewards",
       "collect-main-unhealthy-button": "Claim",
       "collect-explanation-link": "Rewards explained",
       "collect-rewards": "Your Rewards",
-      "collect-rewards-tooltip": "Value of SNX rewards",
+      "collect-rewards-tooltip": "Value of 1SY rewards",
       "collect-fees": "Your Fees",
       "collect-fees-tooltip": "Fees burned in previous epoch"
     },
@@ -90,21 +90,21 @@
       "target-health-tooltip": "Target c-ratio"
     },
     "mint": {
-      "title-new": "Stake SNX By Minting sUSD",
+      "title-new": "Stake 1SY By Minting sUSD",
       "title-existing": "Stake and Borrow More",
-      "description": "Mint sUSD by staking your SNX. SNX stakers earn weekly staking rewards in exchange for managing their Collateralization Ratio and debt. <0>Your staked SNX will be locked for 7 days.<0>",
-      "description-existing": "Borrowing more carries risks. Only do this if you are an experienced SNX Staker and understand the risks.",
-      "heading": "How much SNX do you want to stake?",
-      "heading-tooltip": "How much SNX you stake will determine how much sUSD you can borrow",
+      "description": "Mint sUSD by staking your 1SY. 1SY stakers earn weekly staking rewards in exchange for managing their Collateralization Ratio and debt. <0>Your staked 1SY will be locked for 7 days.<0>",
+      "description-existing": "Borrowing more carries risks. Only do this if you are an experienced 1SY Staker and understand the risks.",
+      "heading": "How much 1SY do you want to stake?",
+      "heading-tooltip": "How much 1SY you stake will determine how much sUSD you can borrow",
       "borrowing": "Borrowing",
-      "borrowing-tooltip": "How much SNX you stake will determine how much sUSD you can borrow",
-      "unstaked-snx": "Unstaked SNX: {{unstakedSnx}}",
+      "borrowing-tooltip": "How much 1SY you stake will determine how much sUSD you can borrow",
+      "unstaked-snx": "Unstaked 1SY: {{unstakedSnx}}",
       "susd-balance": "sUSD Balance: {{susdBalance}}",
       "enter-amount": "Enter Amount",
       "tx-cost": "Tx cost: {{txCost}}",
       "epoch": "EPOCH",
       "epoch-tooltip": "Time to next epoch",
-      "snx-price": "SNX PRICE",
+      "snx-price": "1SY PRICE",
       "info": "Info",
       "gas-estimation-error": "Error estimating gas",
       "below-target-error": "Minting not allowed when below target c-ratio",
@@ -120,14 +120,14 @@
     },
     "burn": {
       "title": "Burn Debt",
-      "description": "Burn your sUSD debt to unlock your staked SNX. This will increase your Collateralization Ratio and reduce your debt. <0>Learn more.<0>",
+      "description": "Burn your sUSD debt to unlock your staked 1SY. This will increase your Collateralization Ratio and reduce your debt. <0>Learn more.<0>",
       "heading": "Burn sUSD",
       "heading-tooltip": "Burn sUSD to increase your c-ratio",
       "unstaking": "Unstaking",
-      "unstaking-tooltip": "When your c-ratio is below target, all your SNX is staked",
+      "unstaking-tooltip": "When your c-ratio is below target, all your 1SY is staked",
       "gas": "Gas Price (GWEI)",
       "gas-tooltip": "Is how much it costs to perform a transaction on the blockchain & GWEI is a denomination of Ether",
-      "snx-balance": "SNX Balance: {{snxBalance}}",
+      "snx-balance": "1SY Balance: {{snxBalance}}",
       "susd-balance": "sUSD Balance: ",
       "enter-amount": "Enter Amount",
       "tx-cost": "Tx cost: {{txCost}}",
@@ -138,8 +138,8 @@
       "burn-target-tooltip-not-allowed": "You are already above target c-ratio",
       "burn-debt": "Clear Debt",
       "active-debt": "Active debt: ",
-      "staked-snx": "Staked SNX: ",
-      "unstaking-note": "When burning while under target c-ratio, you are not unstaking SNX. You need to burn {{sUsdAmountToTarget}} sUSD to have a c-ratio above target and unstake SNX.",
+      "staked-snx": "Staked 1SY: ",
+      "unstaking-note": "When burning while under target c-ratio, you are not unstaking 1SY. You need to burn {{sUsdAmountToTarget}} sUSD to have a c-ratio above target and unstake 1SY.",
       "balance-error": "Not enough sUSD balance",
       "links": {
         "guide": "Staking Guide",
@@ -154,7 +154,7 @@
     },
     "earn": {
       "title": "Earn Rewards",
-      "description": "Earn Rewards Staking SNX tokens offers weekly rewards in both inflationary SNX and sUSD from trading fees. <0>Learn more<0>",
+      "description": "Earn Rewards Staking 1SY tokens offers weekly rewards in both inflationary 1SY and sUSD from trading fees. <0>Learn more<0>",
       "apr": "Est. APR",
       "staked": "Staked Balance",
       "remaining": "Time Remaining",
@@ -170,15 +170,15 @@
         "claiming": "Claiming"
       },
       "staking-rewards": {
-        "title": "Synthetix",
+        "title": "SY",
         "description": "Staking Rewards"
       },
       "liquidation-rewards": {
-        "title": "Synthetix",
+        "title": "SY",
         "description": "Liquidation Rewards"
       },
       "trading-fees": {
-        "title": "Synthetix",
+        "title": "SY",
         "description": "Trading Fees",
         "burned": "Fees Burned",
         "repays": "Repays debt automatically",
@@ -189,8 +189,8 @@
     },
     "self-liquidation": {
       "headline": "Self Liquidate",
-      "sub-headline": "If you are unable to pay down your sUSD debt, you can self liquidate your SNX collateral, with a {{penalty}} penalty. Self Liquidation is permanent, and results in the loss of some or all of your collateral. <linkTag>Read more about self liquidation</linkTag>",
-      "amounts-headline": "Self Liquidation calculation, in SNX and USD value",
+      "sub-headline": "If you are unable to pay down your sUSD debt, you can self liquidate your 1SY collateral, with a {{penalty}} penalty. Self Liquidation is permanent, and results in the loss of some or all of your collateral. <linkTag>Read more about self liquidation</linkTag>",
+      "amounts-headline": "Self Liquidation calculation, in 1SY and USD value",
       "penalty": "Penalty {{penalty}}",
       "back-to-target": "Collateral to be liquidated",
       "total": "Total to be liquidated",
@@ -203,7 +203,7 @@
     "transaction-modal": {
       "pending": "Transaction Pending",
       "completed": "Transaction completed",
-      "etherscan": "View Etherscan",
+      "etherscan": "View Explorer",
       "metamask-note": "Follow your wallet prompts to authorize the transaction.",
       "loading": "Loading",
       "error-headline": "Error",
@@ -212,7 +212,7 @@
       "done": "Done"
     },
     "balance-box": {
-      "box-heading": "SNX Total",
+      "box-heading": "1SY Total",
       "staked": "Staked",
       "transferable": "Transferable",
       "debt-management": "Debt Management",
@@ -241,7 +241,7 @@
     },
     "unflag-options": {
       "heading": "Unflag Account",
-      "text": "If you are unable to pay down your sUSD debt, you can self liquidate your SNX collateral, with a {{penalty}} penalty. Self Liquidation is permanent, and results in the loss of some or all of your collateral.",
+      "text": "If you are unable to pay down your sUSD debt, you can self liquidate your 1SY collateral, with a {{penalty}} penalty. Self Liquidation is permanent, and results in the loss of some or all of your collateral.",
       "recommended": "Recommended",
       "unflag": {
         "heading": "Unflag my account by burning sUSD in order to meet target ratio",
@@ -265,11 +265,11 @@
       "once-purchased-text": "Once purchased go to the <0>Burn Page</0> to burn and remove the flag."
     },
     "mint-or-burn-changes": {
-      "total-snx": "Total SNX",
+      "total-snx": "Total 1SY",
       "staked": "Staked",
-      "staked-tooltip": "Staked SNX change",
+      "staked-tooltip": "Staked 1SY change",
       "transferable": "Transferable",
-      "transferable-tooltip": "Transferable SNX change",
+      "transferable-tooltip": "Transferable 1SY change",
       "c-ratio": "C-Ratio",
       "c-ratio-tooltip": "C-Ratio change",
       "susd-balance": "sUSD Balance",
@@ -319,12 +319,12 @@
     }
   },
   "meta": {
-    "description": "A dApp for SNX holders to earn rewards through staking.",
+    "description": "A dApp for 1SY holders to earn rewards through staking.",
     "og": {
-      "title": "Synthetix Staking",
-      "description": "A dApp for SNX holders to earn rewards through staking.",
-      "image-alt": "Synthetix Staking",
-      "site-name": "Synthetix Staking"
+      "title": "SY Staking",
+      "description": "A dApp for 1SY holders to earn rewards through staking.",
+      "image-alt": "SY Staking",
+      "site-name": "SY Staking"
     }
   },
   "modals": {
@@ -378,10 +378,10 @@
 
     "staked-value": {
       "title": "Staking Value",
-      "total-snx": "total snx",
-      "transferrable-snx": "transferrable snx",
-      "locked-snx": "locked snx",
-      "staked-snx": "staked snx"
+      "total-snx": "total 1SY",
+      "transferrable-snx": "transferrable 1SY",
+      "locked-snx": "locked 1SY",
+      "staked-snx": "staked 1SY"
     },
     "debt-value": {
       "title": "Debt Tracking",
@@ -392,40 +392,40 @@
   },
 
   "escrow": {
-    "page-title": "Escrow | Synthetix Staking",
+    "page-title": "Escrow | SY Staking",
     "staking": {
       "info": {
-        "title": "Vest your SNX staking rewards in escrow",
+        "title": "Vest your 1SY staking rewards in escrow",
         "title-migrate-l1": "Migrate to new L1 escrow contract",
-        "subtitle": "If you have staked your SNX and minted sUSD, you are eligible to receive SNX staking rewards, which will be escrowed here which you can vest in 12 months from the claim date.",
-        "subtitle-migrate-l1": "As per <0>SIP-60</0>,  a new SNX Escrow Contact has been released with new features (including L2 migration). All SNX holders are required to migrate their escrowed SNX before they can vest any escrowed SNX."
+        "subtitle": "If you have staked your 1SY and minted sUSD, you are eligible to receive 1SY staking rewards, which will be escrowed here which you can vest in 12 months from the claim date.",
+        "subtitle-migrate-l1": "As per <0>SIP-60</0>,  a new 1SY Escrow Contact has been released with new features (including L2 migration). All 1SY holders are required to migrate their escrowed 1SY before they can vest any escrowed 1SY."
       }
     },
     "token": {
       "info": {
-        "title": "Vest your escrowed SNX from the token sale.",
-        "subtitle": "If you have escrowed SNX from the token sale, you can vest it here."
+        "title": "Vest your escrowed 1SY from the token sale.",
+        "subtitle": "If you have escrowed 1SY from the token sale, you can vest it here."
       }
     },
     "table": {
-      "no-results": "No escrowed SNX",
+      "no-results": "No escrowed 1SY",
       "vesting-date": "Vesting Date",
-      "snx-amount": "SNX"
+      "snx-amount": "1SY"
     },
     "actions": {
       "staking": {
         "title": "Staking Rewards"
       },
       "stake": {
-        "no-escrowed-snx": "You have no escrowed SNX",
+        "no-escrowed-snx": "You have no escrowed 1SY",
         "stake-now": "Stake now"
       },
       "ico": {
         "title": "Token Sale"
       },
       "vest-button": "Vest {{canVestAmount}}",
-      "migrate-button": "Migrate SNX",
-      "disabled": "No SNX to vest",
+      "migrate-button": "Migrate 1SY",
+      "disabled": "No 1SY to vest",
       "in-progress": {
         "title": "Vesting in progress",
         "vesting": "Vesting",
@@ -457,7 +457,7 @@
       "input-label": "Balance",
       "max": "Max"
     },
-    "page-title": "Borrow Synths | Synthetix Staking",
+    "page-title": "Borrow Synths | SY Staking",
     "interest-rate": "Interest Rate",
     "issuance-fee": "Issuance Fee",
     "cratio": "C-Ratio",
@@ -559,7 +559,7 @@
   "migrate-escrow": {
     "actions": {
       "migrate": {
-        "title": "Migrate Escrowed SNX",
+        "title": "Migrate Escrowed 1SY",
         "subtitle": "Migrate Escrowed schedule from L1 to L2",
         "action": {
           "in-progress": {
@@ -575,8 +575,8 @@
             "dismiss": "Dismiss"
           },
           "migrate-button": "Migrate {{escrowedAmount}}",
-          "disabled": "No SNX to migrate",
-          "vest-needed": "You need to vest before being able to migrate your escrowed SNX",
+          "disabled": "No 1SY to migrate",
+          "vest-needed": "You need to vest before being able to migrate your escrowed 1SY",
           "go-to-escrow-page": "Go to Escrow page"
         }
       }
@@ -609,7 +609,7 @@
     }
   },
   "history": {
-    "page-title": "History | Synthetix Staking",
+    "page-title": "History | SY Staking",
     "table": {
       "type": "type",
       "amount": "amount",
@@ -642,7 +642,7 @@
   },
 
   "bridge": {
-    "page-title": "Bridge | Synthetix Staking",
+    "page-title": "Bridge | SY Staking",
     "headline": "Bridge between L1 and L2",
     "description": "Bridge assets between layers and networks",
     "available-balance": "sUSD Available for Bridging",
@@ -694,7 +694,7 @@
       "execute-error": "Execute error",
       "switch-mainnet": "Switch to Ethereum Mainnet"
     },
-    "relayer-warning": "Looking to withdraw SNX related tokens or having trouble finding your withdrawal? Use the <0>message relayer</0>",
+    "relayer-warning": "Looking to withdraw 1SY related tokens or having trouble finding your withdrawal? Use the <0>message relayer</0>",
     "gas-warning": "To avoid a failed transaction, it is suggested to include a higher gas limit than necessary. Transactions will not execute at this cost. Typical transaction's cost {{num}} ETH."
   },
 
@@ -734,16 +734,16 @@
       "staked-value": "Staked value",
       "earning": "Earning",
       "active-debt": "Active debt",
-      "collateral-l1": "L1 SNX Collateral",
-      "collateral-l2": "L2 SNX Collateral",
+      "collateral-l1": "L1 1SY Collateral",
+      "collateral-l2": "L2 1SY Collateral",
       "c-ratio": "c-ratio",
       "synth-value": "Total synth value",
       "tx-count": "Total transactions",
       "upcoming-rewards": "EST. Upcoming rewards",
       "lifetime-rewards": "Lifetime rewards",
-      "available-snx": "Total available SNX",
-      "vested-snx": "Total SNX vested",
-      "escrowed-snx": "Total SNX escrowed",
+      "available-snx": "Total available 1SY",
+      "vested-snx": "Total 1SY vested",
+      "escrowed-snx": "Total 1SY escrowed",
       "voting-power": {
         "title": "Your voting power (L1 + L2)",
         "tooltip": "Your voting power was calculated based on block {{blocknumber}}"
@@ -790,7 +790,7 @@
       "deprecated": "deprecated"
     },
     "total-staking": {
-      "staking-percentage-tooltip": "Total percent of SNX staked across both networks",
+      "staking-percentage-tooltip": "Total percent of 1SY staked across both networks",
       "staking-percentage-title": "System Staking"
     },
     "price-change": {
@@ -811,7 +811,7 @@
     "explorers": {
       "etherscan": "etherscan"
     },
-    "stake-snx": "Stake SNX",
+    "stake-snx": "Stake 1SY",
     "tooltip": {
       "external": "Redirects to {{link}}"
     },
@@ -842,19 +842,19 @@
     }
   },
   "not-found": {
-    "page-title": "Not Found | Synthetix Staking",
+    "page-title": "Not Found | SY Staking",
     "title": "404",
     "subtitle": "Page not found"
   },
   "system-status": {
-    "page-title": "Maintenance | Synthetix Staking",
+    "page-title": "Maintenance | SY Staking",
     "title-line1": "Down for",
     "title-line2": "maintenance.",
     "subtitle": "We apologise for any inconvenience caused, it will be back shortly."
   },
 
   "delegate": {
-    "page-title": "Delegate | Synthetix Staking",
+    "page-title": "Delegate | SY Staking",
     "form": {
       "title": "Delegate to a new Address",
       "tx-confirmation-title": "Delegating to",
@@ -888,12 +888,12 @@
     "tx-confirmation-title": "Updating approval"
   },
   "merge-accounts": {
-    "page-title": "Merge Accounts | Synthetix Staking",
+    "page-title": "Merge Accounts | SY Staking",
     "landing": {
       "steps": {
         "1": {
           "title": "BURN DEBT & NOMINATE ACCOUNT",
-          "description": "In order to merge accounts, first you need Burn any outstanding debt from the address you want to merge from in order to transfer the vested SNX."
+          "description": "In order to merge accounts, first you need Burn any outstanding debt from the address you want to merge from in order to transfer the vested 1SY."
         },
         "2": {
           "title": "MERGE FROM DESTINATION ACCOUNT",
@@ -934,7 +934,7 @@
       "button-labels": {
         "enter-address": "Enter address",
         "nominate": "nominate",
-        "merge": "merge vested snx",
+        "merge": "merge vested 1SY",
         "dest-account-is-self": "Cannot nominate self",
         "nominating": "Nominating",
         "invalid-dest-address": "Address is invalid",
@@ -942,8 +942,8 @@
         "dest-is-a-burn-address": "Cannot merge into burn address"
       },
       "info": {
-        "title": "Merge Escrowed SNX To Nominated Account",
-        "subtitle": "Merge your vested SNX balance by inputing the new destination address in the 'DESTINATION ADDRESS' field, this address is where you want your balances to be sent to. <0>Learn more.</0>"
+        "title": "Merge Escrowed 1SY To Nominated Account",
+        "subtitle": "Merge your vested 1SY balance by inputing the new destination address in the 'DESTINATION ADDRESS' field, this address is where you want your balances to be sent to. <0>Learn more.</0>"
       },
       "tx-waiting": {
         "title": "In progress",
@@ -964,7 +964,7 @@
       "button-labels": {
         "merging": "merging",
         "enter-address": "enter address",
-        "merge": "merge vested snx",
+        "merge": "merge vested 1SY",
         "source-account-is-self": "Cannot merge into self",
         "source-is-a-burn-address": "Cannot merge from burn address",
         "not-nominated": "Address is not nominated",

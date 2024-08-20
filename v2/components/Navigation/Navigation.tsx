@@ -12,7 +12,7 @@ import {
   useDisclosure,
   Link as ChakraLink,
 } from '@chakra-ui/react';
-import { NetworkId, NetworkIdByName } from '@synthetixio/contracts-interface';
+import { NetworkIdByName, NetworkId } from '../../../packages/contracts-interface/src/types';
 import {
   ChevronDown,
   ChevronUp,
@@ -30,6 +30,7 @@ import {
   // InfoOutline,
   InfoOutline,
 } from '@snx-v2/icons';
+import { HarmonyIcon } from '../icons/HarmonyIcon';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { formatNumberToUsd, truncateAddress } from '@synthetixio/formatters';
@@ -69,6 +70,8 @@ const activeIcon = (currentNetwork: NetworkId) => {
       return { icon: <EthereumIcon />, name: 'Goerli Testnet' };
     case 420:
       return { icon: <OptimismIcon />, name: 'Optimistic Goerli' };
+    case 1666600000:
+      return { icon: <HarmonyIcon />, name: 'Harmony' };
 
     default:
       return { icon: <FailedIcon width="24px" height="24px" />, name: 'Unsupported Network' };
@@ -156,6 +159,12 @@ export const NavigationUI = ({
                   )}
                 </MenuButton>
                 <MenuList>
+                  <MenuItem onClick={() => switchNetwork(NetworkIdByName.harmony)}>
+                    <HarmonyIcon />
+                    <Text variant="nav" ml={2}>
+                      Harmony
+                    </Text>
+                  </MenuItem>
                   <MenuItem onClick={() => switchNetwork(NetworkIdByName.mainnet)}>
                     <EthereumIcon />
                     <Text variant="nav" ml={2}>

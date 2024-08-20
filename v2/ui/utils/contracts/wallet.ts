@@ -3,7 +3,7 @@ import {
   name as SynthUtilMainnet,
   address as SynthUtilAddressMainnet,
   abi as SynthUtilAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthUtil';
+} from '../../contracts/build/mainnet/deployment/SynthUtil';
 import {
   name as SynthUtilMainnetOvm,
   address as SynthUtilAddressMainnetOvm,

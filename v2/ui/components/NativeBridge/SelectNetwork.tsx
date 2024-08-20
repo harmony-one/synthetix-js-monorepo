@@ -16,6 +16,8 @@ const activeIcon = (currentNetwork?: number | NetworkId) => {
       return { icon: <EthereumIcon />, name: 'Goerli Testnet' };
     case 420:
       return { icon: <OptimismIcon />, name: 'Optimistic Goerli' };
+    case 1666600000:
+      return { icon: <EthereumIcon />, name: 'Harmony One' };
 
     default:
       return { icon: <FailedIcon width="24px" height="24px" />, name: 'Unsupported Network' };
@@ -36,10 +38,12 @@ function SelectNetwork({
 }) {
   const ethNetworkId = NetworkIdByName['mainnet'];
   const opNetworkId = NetworkIdByName['mainnet-ovm'];
+  const harmonyNetworkId = NetworkIdByName['harmony'];
 
   const { name, icon } = activeIcon(networkId);
   const { name: ethName, icon: ethIcon } = activeIcon(ethNetworkId);
   const { name: opName, icon: opIcon } = activeIcon(opNetworkId);
+  const { name: harmonyName, icon: harmonyIcon } = activeIcon(harmonyNetworkId);
 
   const switchMenuNetwork = async (toNetworkId: NetworkId) => {
     if (toNetworkId === networkId) return;
@@ -84,10 +88,22 @@ function SelectNetwork({
               {isOpen ? <ChevronUp color="white" /> : <ChevronDown color="white" />}
             </MenuButton>
             <MenuList>
+              <MenuItem onClick={() => switchMenuNetwork(harmonyNetworkId)}>
+                {harmonyIcon}
+                <Text variant="nav" ml={2}>
+                  {harmonyName}
+                </Text>
+              </MenuItem>
               <MenuItem onClick={() => switchMenuNetwork(ethNetworkId)}>
                 {ethIcon}
                 <Text variant="nav" ml={2}>
                   {ethName}
+                </Text>
+              </MenuItem>
+              <MenuItem onClick={() => switchMenuNetwork(opNetworkId)}>
+                {opIcon}
+                <Text variant="nav" ml={2}>
+                  {opName}
                 </Text>
               </MenuItem>
               <MenuItem onClick={() => switchMenuNetwork(opNetworkId)}>

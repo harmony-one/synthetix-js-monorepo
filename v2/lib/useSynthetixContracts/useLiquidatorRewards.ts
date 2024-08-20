@@ -14,6 +14,7 @@ const contracts = {
   mainnet: () => import('@synthetixio/contracts/build/mainnet/deployment/LiquidatorRewards'),
   'mainnet-ovm': () =>
     import('@synthetixio/contracts/build/mainnet-ovm/deployment/LiquidatorRewards'),
+  'harmony': () => import('../../contracts/src/harmony/deployment/LiquidatorRewards'),
 };
 
 export const getLiquidatorRewards = async ({

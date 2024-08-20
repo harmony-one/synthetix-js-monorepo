@@ -60,7 +60,7 @@ export const BurnTransactionModal: FC<{
         <Text fontWeight={500} color="gray.600">
           {t('staking-v2.burn.txn-modal.unstaking')}
         </Text>
-        <Text fontWeight={500}>{snxUnstakingAmount} SNX</Text>
+        <Text fontWeight={500}>{snxUnstakingAmount} 1SY</Text>
       </Flex>
       <Flex flexDirection="column" alignItems="center" bg="black" pt="4" pb="4" mt="4">
         <Text fontWeight={500} color="gray.600">

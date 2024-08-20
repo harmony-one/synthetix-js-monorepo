@@ -3,7 +3,7 @@ import {
   name as ExchangeRatesMainnet,
   address as ExchangeRatesAddressMainnet,
   abi as ExchangeRatesAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/ExchangeRates';
+} from '../../contracts/build/mainnet/deployment/ExchangeRates';
 import {
   name as ExchangeRatesMainnetOvm,
   address as ExchangeRatesAddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as SynthUtilMainnet,
   address as SynthUtilAddressMainnet,
   abi as SynthUtilAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthUtil';
+} from '../../contracts/build/mainnet/deployment/SynthUtil';
 import {
   name as SynthUtilMainnetOvm,
   address as SynthUtilAddressMainnetOvm,

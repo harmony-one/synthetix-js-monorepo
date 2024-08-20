@@ -5,7 +5,7 @@ const prettier = require('prettier');
 const { runTypeChain } = require('typechain');
 
 function prepareContracts(network) {
-  const deployment = require(`synthetix/publish/deployed/${network}/deployment.json`);
+  const deployment = require(`./publish/deployed/${network}/deployment.json`);
   const { targets, sources } = deployment;
 
   return Object.values(targets).map((target) => {
@@ -89,10 +89,10 @@ async function generateTypes({ network, contracts, prettierOptions }) {
 
 async function generateSynths({ network, prettierOptions }) {
   const synths = JSON.parse(
-    await fs.readFile(require.resolve(`synthetix/publish/deployed/${network}/synths.json`), 'utf8')
+    await fs.readFile(require.resolve(`./publish/deployed/${network}/synths.json`), 'utf8')
   );
   const assets = JSON.parse(
-    await fs.readFile(require.resolve('synthetix/publish/assets.json'), 'utf8')
+    await fs.readFile(require.resolve('./publish/assets.json'), 'utf8')
   );
   const synthsWithAssetData = synths.map((synth) => Object.assign({}, assets[synth.asset], synth));
   const synthsByName = synthsWithAssetData.reduce((acc, val) => {
@@ -132,7 +132,7 @@ async function generateSynths({ network, prettierOptions }) {
 }
 
 async function run() {
-  const synthetixPath = path.dirname(require.resolve('synthetix'));
+  const synthetixPath = path.dirname('./');
   const deployed = path.join(synthetixPath, 'publish/deployed');
   const networks = (await fs.readdir(deployed, { withFileTypes: true }))
     .filter((dirent) => dirent.isDirectory())

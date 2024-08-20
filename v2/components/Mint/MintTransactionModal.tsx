@@ -60,7 +60,7 @@ export const MintTransactionModal: FC<{
         <Text fontWeight={500} color="gray.600">
           {t('staking-v2.mint.txn-modal.staking')}
         </Text>
-        <Text fontWeight={500}>{stakeAmountSNX} SNX</Text>
+        <Text fontWeight={500}>{stakeAmountSNX} 1SY</Text>
       </Flex>
       <Flex flexDirection="column" alignItems="center" bg="black" pt="4" pb="4" mt="4">
         <Text fontWeight={500} color="gray.600">

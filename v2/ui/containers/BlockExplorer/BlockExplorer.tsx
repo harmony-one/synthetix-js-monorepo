@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { createContainer } from 'unstated-next';
 import { OPTIMISM_NETWORKS } from '@synthetixio/optimism-networks';
 
-import { NetworkIdByName } from '@synthetixio/contracts-interface';
+import { NetworkIdByName } from '../../../../packages/contracts-interface/src/types';
 import { Network } from 'store/wallet';
 
 import _ from 'lodash';
@@ -24,6 +24,8 @@ const getBaseUrl = (network: Network) => {
     );
   } else if (network.id === NetworkIdByName.mainnet) {
     return 'https://etherscan.io';
+  } else if(network.id === NetworkIdByName.harmony) {
+    return 'https://explorer.harmony.one';
   }
   return `https://${network.name}.etherscan.io`;
 };

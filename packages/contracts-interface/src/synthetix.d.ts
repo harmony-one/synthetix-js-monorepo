@@ -135,6 +135,11 @@ declare module 'synthetix' {
       fork: false,
       network: 'invalid',
     },
+    1666600000: {
+      useOvm: false,
+      fork: true,
+      network: 'harmony',
+    },
   } as const;
   export const networkToChainId = {
     mainnet: 1,
@@ -144,6 +149,7 @@ declare module 'synthetix' {
     'kovan-ovm': 69,
     'mainnet-fork': 31337,
     'goerli-ovm': 420,
+    'harmony': 1666600000,
   } as const;
   // eslint-disable-next-line
   export function getSynths(arg: { network: NetworkName; useOvm?: boolean }): any; // Note contract interface will generate enums for this and return the correct type to consumers

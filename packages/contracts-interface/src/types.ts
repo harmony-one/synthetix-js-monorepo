@@ -13,8 +13,10 @@ import {
 
 import { SynthsByName } from '@synthetixio/contracts/build/mainnet/synths';
 import { SynthsByName as OptimismSynthsByName } from '@synthetixio/contracts/build/mainnet-ovm/synths';
+// @ts-ignore
+import { SynthsByName as HarmonySynthsByName } from '../../../v2/contracts/src/harmony/synths';
 
-export const NetworkIdByName = {
+export const NetworkIdByName: Record<string, number> = {
   mainnet: 1,
   goerli: 5,
   'goerli-ovm': 420,
@@ -22,9 +24,10 @@ export const NetworkIdByName = {
   kovan: 42,
   'kovan-ovm': 69,
   'mainnet-fork': 31337,
+  harmony: 1666600000,
 } as const;
 
-export const NetworkNameById = {
+export const NetworkNameById: Record<NetworkId, string> = {
   1: 'mainnet',
   5: 'goerli',
   42: 'kovan',
@@ -32,6 +35,7 @@ export const NetworkNameById = {
   69: 'kovan-ovm',
   420: 'goerli-ovm',
   31337: 'mainnet-fork',
+  1666600000: 'harmony',
 } as const;
 
 export type NetworkIdByNameType = typeof NetworkIdByName;
@@ -81,6 +85,7 @@ function notNill<Value>(value: Value | null | undefined): value is Value {
 }
 const AllSynths = Object.values(SynthsByName)
   .concat(Object.values(OptimismSynthsByName))
+  .concat(Object.values(HarmonySynthsByName))
   .filter(notNill);
 
 export type CurrencyKey = string;

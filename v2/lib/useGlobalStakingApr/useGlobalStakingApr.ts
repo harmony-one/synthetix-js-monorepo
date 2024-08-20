@@ -6,6 +6,7 @@ import { StakedSNXResponse, useTotalStakedSNX } from '@snx-v2/useTotalStakedSNX'
 import Wei, { wei } from '@synthetixio/wei';
 import { NetworkIdByName } from '@snx-v2/useSynthetixContracts';
 import { useFeePeriodMultiNetwork } from '@snx-v2/useFeePeriodMultiNetwork';
+import { BigNumber } from 'ethers';
 
 // exported for tests
 export const calculateGlobalStakingFeeApr = ({
@@ -27,7 +28,9 @@ export const calculateGlobalStakingFeeApr = ({
     .add(totalStakedData.stakedSnx.optimism)
     .mul(SNXRate);
   const yearlyExtrapolatedRewards = totalFeesDistributed.mul(WEEKS_IN_YEAR);
-  return yearlyExtrapolatedRewards.div(collateralValue);
+  return collateralValue.gt(0)
+    ? yearlyExtrapolatedRewards.div(collateralValue)
+    : BigNumber.from(0);
 };
 
 // exported for tests
@@ -82,5 +85,5 @@ export const useGlobalStakingApr = () => {
     isL2,
     feePeriodData: { mainnetDistributedRewards, optimismDistributedRewards },
   });
-  return { data: { combinedApr: feesApr.add(snxApr), feesApr, snxApr }, isLoading: false };
+  return { data: { combinedApr: snxApr.add(feesApr), feesApr, snxApr }, isLoading: false };
 };

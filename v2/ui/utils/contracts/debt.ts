@@ -3,7 +3,7 @@ import {
   name as ExchangeRatesMainnet,
   address as ExchangeRatesAddressMainnet,
   abi as ExchangeRatesAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/ExchangeRates';
+} from '../../contracts/build/mainnet/deployment/ExchangeRates';
 import {
   name as ExchangeRatesMainnetOvm,
   address as ExchangeRatesAddressMainnetOvm,
@@ -15,7 +15,7 @@ import {
   name as SynthetixMainnet,
   address as SynthetixAddressMainnet,
   abi as SynthetixAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/Synthetix';
+} from '../../contracts/build/mainnet/deployment/Synthetix';
 import {
   name as SynthetixMainnetOvm,
   address as SynthetixAddressMainnetOvm,
@@ -27,7 +27,7 @@ import {
   name as SystemSettingsMainnet,
   address as SystemSettingsAddressMainnet,
   abi as SystemSettingsAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SystemSettings';
+} from '../../contracts/build/mainnet/deployment/SystemSettings';
 import {
   name as SystemSettingsMainnetOvm,
   address as SystemSettingsAddressMainnetOvm,
@@ -39,7 +39,7 @@ import {
   name as DebtMigratorOnEthereumMainnet,
   address as DebtMigratorAddressOnEthereumMainnet,
   abi as DebtMigratorAbiOnEthereumMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/DebtMigratorOnEthereum';
+} from '../../contracts/build/mainnet/deployment/DebtMigratorOnEthereum';
 
 // DebtMigratorOnOptimism
 import {

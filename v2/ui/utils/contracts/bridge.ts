@@ -3,7 +3,7 @@ import {
   name as SynthetixBridgeToOptimismMainnet,
   address as SynthetixBridgeToOptimismAddressMainnet,
   abi as SynthetixBridgeToOptimismAbiMainnet,
-} from '@synthetixio/contracts/build/mainnet/deployment/SynthetixBridgeToOptimism';
+} from '../../contracts/build/mainnet/deployment/SynthetixBridgeToOptimism';
 
 // SynthetixBridgeToBase
 import {

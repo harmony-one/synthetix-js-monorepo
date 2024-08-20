@@ -123,7 +123,7 @@ export const MintUi = ({
             <Flex alignItems="center">
               <SNXIconWithBorder />
               <Text ml={2} fontFamily="heading" fontSize="lg" fontWeight="black">
-                SNX
+                1SY
               </Text>
             </Flex>
             <Flex flexDir="column" alignItems="flex-end">

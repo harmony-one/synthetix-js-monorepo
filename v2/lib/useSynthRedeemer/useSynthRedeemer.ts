@@ -20,6 +20,7 @@ const contracts = {
   mainnet: () => import('@synthetixio/contracts/build/mainnet/deployment/DynamicSynthRedeemer'),
   'mainnet-ovm': () =>
     import('@synthetixio/contracts/build/mainnet-ovm/deployment/DynamicSynthRedeemer'),
+  'harmony': () => import('../../contracts/src/harmony/deployment/DynamicSynthRedeemer'),
 };
 
 export const useSynthRedeemer = () => {
