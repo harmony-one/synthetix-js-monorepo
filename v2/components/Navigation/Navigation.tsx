@@ -165,18 +165,18 @@ export const NavigationUI = ({
                       Harmony
                     </Text>
                   </MenuItem>
-                  <MenuItem onClick={() => switchNetwork(NetworkIdByName.mainnet)}>
-                    <EthereumIcon />
-                    <Text variant="nav" ml={2}>
-                      Ethereum Mainnet
-                    </Text>
-                  </MenuItem>
-                  <MenuItem onClick={() => switchNetwork(NetworkIdByName['mainnet-ovm'])}>
-                    <OptimismIcon />
-                    <Text variant="nav" ml={2}>
-                      Optimism
-                    </Text>
-                  </MenuItem>
+                  {/*<MenuItem onClick={() => switchNetwork(NetworkIdByName.mainnet)}>*/}
+                  {/*  <EthereumIcon />*/}
+                  {/*  <Text variant="nav" ml={2}>*/}
+                  {/*    Ethereum Mainnet*/}
+                  {/*  </Text>*/}
+                  {/*</MenuItem>*/}
+                  {/*<MenuItem onClick={() => switchNetwork(NetworkIdByName['mainnet-ovm'])}>*/}
+                  {/*  <OptimismIcon />*/}
+                  {/*  <Text variant="nav" ml={2}>*/}
+                  {/*    Optimism*/}
+                  {/*  </Text>*/}
+                  {/*</MenuItem>*/}
                 </MenuList>
               </>
             )}
