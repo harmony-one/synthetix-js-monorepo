@@ -288,19 +288,19 @@ export const NavigationUI = ({
                 </Center>
               </MenuItem>
             )}
-            <MenuItem
-              _hover={{ textDecoration: 'none', bg: 'whiteAlpha.400' }}
-              as={ChakraLink}
-              isExternal={true}
-              href={EXTERNAL_LINKS.Synthetix.Governance}
-            >
-              <Center>
-                <GovIcon />
-                <Text fontSize="sm" ml={2}>
-                  {t('common.wallet.menu.gov')}
-                </Text>
-              </Center>
-            </MenuItem>
+            {/*<MenuItem*/}
+            {/*  _hover={{ textDecoration: 'none', bg: 'whiteAlpha.400' }}*/}
+            {/*  as={ChakraLink}*/}
+            {/*  isExternal={true}*/}
+            {/*  href={EXTERNAL_LINKS.Synthetix.Governance}*/}
+            {/*>*/}
+            {/*  <Center>*/}
+            {/*    <GovIcon />*/}
+            {/*    <Text fontSize="sm" ml={2}>*/}
+            {/*      {t('common.wallet.menu.gov')}*/}
+            {/*    </Text>*/}
+            {/*  </Center>*/}
+            {/*</MenuItem>*/}
             {Boolean(isWalletConnected && !delegateWallet) && (
               <MenuItem as={Link} to="/wallet">
                 <Center>
@@ -317,17 +317,17 @@ export const NavigationUI = ({
                 <Text ml={2}>{t('common.wallet.menu.settings')}</Text>
               </Center>
             </MenuItem> */}
-            <MenuItem
-              _hover={{ textDecoration: 'none', bg: 'whiteAlpha.400' }}
-              as={ChakraLink}
-              isExternal={true}
-              href={EXTERNAL_LINKS.Synthetix.Docs}
-            >
-              <GuideIcon />
-              <Text fontSize="sm" ml={2}>
-                {t('common.wallet.menu.docs')}
-              </Text>
-            </MenuItem>
+            {/*<MenuItem*/}
+            {/*  _hover={{ textDecoration: 'none', bg: 'whiteAlpha.400' }}*/}
+            {/*  as={ChakraLink}*/}
+            {/*  isExternal={true}*/}
+            {/*  href={EXTERNAL_LINKS.Synthetix.Docs}*/}
+            {/*>*/}
+            {/*  <GuideIcon />*/}
+            {/*  <Text fontSize="sm" ml={2}>*/}
+            {/*    {t('common.wallet.menu.docs')}*/}
+            {/*  </Text>*/}
+            {/*</MenuItem>*/}
             <MenuItem as={Link} to="/terms">
               <InfoOutline width="20px" height="20px" />
               <Text fontSize="sm" ml={2}>

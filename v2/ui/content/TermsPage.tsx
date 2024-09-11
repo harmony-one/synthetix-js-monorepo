@@ -4,10 +4,10 @@ const TermsPage = () => {
   return (
     <>
       <Container>
-        <Heading>Synthetix Terms of Use</Heading>
+        <Heading>SY Terms of Use</Heading>
         <Text style={{ fontSize: '16px', marginTop: '16px' }}>Last Modified: January 25, 2022</Text>
         <Text>
-          SYNTHETIX IS A SUITE OF EXPERIMENTAL BLOCKCHAIN-ORIENTED FUNCTIONALITIES. USING THESE
+          SY IS A SUITE OF EXPERIMENTAL BLOCKCHAIN-ORIENTED FUNCTIONALITIES. USING THESE
           FUNCTIONALITIES (INCLUDING VIA THE INTERFACE ON OUR WEBSITE) POSES SIGNIFICANT RISKS TO
           YOU AND YOUR ONLINE ASSETS. THIS DOCUMENT CONTAINS VERY IMPORTANT INFORMATION REGARDING
           THESE RISKS AND YOUR RIGHTS AND OBLIGATIONS, AS WELL AS CONDITIONS, LIMITATIONS, AND
@@ -31,20 +31,18 @@ const TermsPage = () => {
           </Text>
           <Text style={{ marginTop: '8px' }}>
             These terms of use are entered into by and between you (<InlineBold>“you”</InlineBold>{' '}
-            or the <InlineBold>“User”</InlineBold>) and Synthetix. (<InlineBold>“SNX,” </InlineBold>{' '}
-            <InlineBold>“SNX DAO,” </InlineBold> <InlineBold>“we,” </InlineBold>{' '}
+            or the <InlineBold>“User”</InlineBold>) and SY. (<InlineBold>“SY,” </InlineBold>{' '}
+            <InlineBold>“SY DAO,” </InlineBold> <InlineBold>“we,” </InlineBold>{' '}
             <InlineBold>our,” </InlineBold> <InlineBold>us”</InlineBold>
-            ). SNX is a distributed network of individual contributors who are located around the
+            ). SY is a distributed network of individual contributors who are located around the
             world and collaborate primarily through digital means. The following terms and
             conditions, together with any documents they expressly incorporate by reference
             (collectively, these <InlineBold>“Terms of Use” </InlineBold> or this{' '}
             <InlineBold>“Agreement”</InlineBold>
-            ), govern the User’s access to and use of https://synthetix.io/,
-            https://synthetix.eth.limo/ and its sub-pages, including any content or functionality
+            ), govern the User’s access to and use of https://sy.country/ and its sub-pages, including any content or functionality
             offered on or through the website-hosted user interface accessible via
-            https://staking.synthetix.io/ or https://staking.synthetix.eth.limo/ (the{' '}
-            <InlineBold>“Interface,” </InlineBold> or collectively with other https://synthetix.io/
-            or https://synthetix.eth.limo/ subpages, the <InlineBold>“Website”</InlineBold>
+            https://sy.country (the{' '}
+            <InlineBold>“Interface,” </InlineBold> or collectively with other https://sy.country subpages, the <InlineBold>“Website”</InlineBold>
             ). The User must read these Terms of Use carefully before using the Website (including
             the Interface).{' '}
             <InlineBold style={{ marginTop: '8px', marginBottom: '8px' }}>
@@ -55,13 +53,13 @@ const TermsPage = () => {
             incorporated herein by reference, the User must not access the Website or use the
             Interface. The Website is offered and available to users who are eighteen (18) years of
             age or older. By using this Website, the User represents and warrants that the User is
-            at least the higher of legal age to form a binding contract with SNX in the User’s
+            at least the higher of legal age to form a binding contract with SY in the User’s
             applicable jurisdiction or eighteen (18) years of age, and meets all of the foregoing
             eligibility requirements. Further, by using this Website, the User represents and
             warrants that the User is not a citizen or resident of, nor is located in, any country
             where the use of the Website is illegal or impermissible, whether by rule, statute,
             regulation, bylaw, court adjudication or order, protocol, administrative statement,
-            code, decree, or other directive, requirement or guideline, whether applicable on SNX,
+            code, decree, or other directive, requirement or guideline, whether applicable on SY,
             the Website, the Interface, the Protocol (as defined herein), or on the User (or any
             combination of the foregoing) by an authority with valid and enforceable jurisdiction (
             <InlineBold>“Applicable Laws”</InlineBold>
@@ -80,23 +78,23 @@ const TermsPage = () => {
           <Text style={{ marginTop: '8px' }}>
             The Website’s services (the <InlineBold>“Services”</InlineBold>) include without
             limitation providing methods and information to enable those who access the Website (
-            <InlineBold>“Participants”</InlineBold>) to access to or participate in the Synthetix
+            <InlineBold>“Participants”</InlineBold>) to access to or participate in the SY
             decentralized, autonomous financial market mechanism powered by blockchain-enforced
             smart contracts (the <InlineBold>“Protocol”</InlineBold>
             ). The Protocol is intended to be provided and operate in a decentralized manner,
-            meaning that individual SNX contributors and the SNX DAO, have no ability to control,
+            meaning that individual SY contributors, have no ability to control,
             modify, prevent, stop, amend, or adjust interactions or transactions after they are
             submitted to the Protocol, whether or not through the Interface. Further, the Interface
             is not the only method that individuals or parties may interact with, contribute to,
             access, or otherwise affect the Protocol. Thus, the Services (including the Website and
             the Interface) are distinct from the Protocol, and any of the Protocol’s products or
-            offerings should not be viewed as products or offerings provided by SNX or the Website.
+            offerings should not be viewed as products or offerings provided by SY or the Website.
             <InlineBold>
               You are expected to be familiar with the Protocol and the risks it represents
               (including without limitation the possibility of your crypto-assets being forfeited
               according to the Protocol’s rules or being lost for any other reason) before accessing
               it (whether accessed via the Interface or otherwise). YOU ACKNOWLEDGE AND AGREE THAT
-              YOUR USE OR INTERACTION WITH THE PROTOCOL IS AT YOUR OWN RISK AND SNX WAIVES ALL
+              YOUR USE OR INTERACTION WITH THE PROTOCOL IS AT YOUR OWN RISK AND SY WAIVES ALL
               LIABILITY OR RESPONSIBILITY, AND MAKES NO WARRANTIES, RELATED TO THE PROTOCOL, WHETHER
               OR NOT THE PROTOCOL IS ACCESSED VIA OUR SERVICES.
             </InlineBold>{' '}
@@ -106,12 +104,12 @@ const TermsPage = () => {
               distributed ledger service, or by the Protocol itself, that are designed to encourage
               their intended use among the Protocol’s participants (
               <InlineBold>“Blockchain Fees”</InlineBold>
-              ). These Blockchain Fees are not levied directly by SNX, but rather are determined by
+              ). These Blockchain Fees are not levied directly by SY, but rather are determined by
               your use of the Services and the rules placed by corresponding Protocol and underlying
-              blockchain communities at large. You acknowledge that SNX has no control over
+              blockchain communities at large. You acknowledge that SY has no control over
               Blockchain Fees, (including, without limitation, their applicability, payment,
               amounts, transmission, transmission, intended operation, and effectiveness) whether
-              related to your use of the Services or otherwise, and agree that in no event will SNX
+              related to your use of the Services or otherwise, and agree that in no event will SY
               be responsible to you or any other part for the payment, repayment, refund,
               disbursement, indemnity, or for any other aspect of your use or transmission of
               Blockchain Fees. For further information regarding blockchain technology,
@@ -185,7 +183,7 @@ const TermsPage = () => {
               other personal information. In the event the User’s Web3 credentials are compromised,
               they User acknowledges and understands that all of its related crypto-assets may be
               compromised as well, and waives any and all responsibility of and liability against
-              SNX related to any losses in any such event.
+              SY related to any losses in any such event.
             </Text>
           </Text>
         </Box>
@@ -226,14 +224,14 @@ const TermsPage = () => {
                 solicitation.
               </li>
               <li>
-                To impersonate or attempt to impersonate a specific individual SNX DAO contributor,
+                To impersonate or attempt to impersonate a specific individual SY contributor,
                 another user, or any other person or entity (including, without limitation, by using
                 email addresses, screen names, similarly named or commonly misspelled URLs, or
                 associated blockchain identities).
               </li>
               <li>
                 To engage in any other conduct that restricts or inhibits anyone’s use or enjoyment
-                of the Website or the Services, or which, as determined by us, may harm SNX or
+                of the Website or the Services, or which, as determined by us, may harm SY or
                 Participants, or expose them to liability. If they are a citizen of or otherwise
                 accessing the Website from Burma (Myanmar), Cuba, Iran, Sudan, Syria, the Western
                 Balkans, Belarus, Côte d’Ivoire, Democratic Republic of the Congo, Iraq, Lebanon,
@@ -255,7 +253,7 @@ const TermsPage = () => {
                 manipulation.
               </li>
               <li>
-                To damage the reputation of SNX or impair any of SNX’s legal rights or interests.
+                To damage the reputation of SY or impair any of SY’s legal rights or interests.
               </li>
             </ul>
             <Text style={{ marginTop: '16px' }}>Additionally, the User agrees not to:</Text>
@@ -385,10 +383,10 @@ const TermsPage = () => {
                 including without limitation, any violation of these Terms of Use.
               </li>
             </ul>
-            Without limiting the foregoing, SNX contributors have the right to cooperate fully with
+            Without limiting the foregoing, SY contributors have the right to cooperate fully with
             any law enforcement authorities or court order requesting or directing us to disclose
             the identity or other information of anyone posting any materials on or through the
-            Website. BY USING THE SERVICES, YOU WAIVE AND HOLD HARMLESS SNX AND ITS AFFILIATES,
+            Website. BY USING THE SERVICES, YOU WAIVE AND HOLD HARMLESS SY AND ITS AFFILIATES,
             LICENSEES, AND SERVICE PROVIDERS FROM ANY CLAIMS RESULTING FROM ANY ACTION TAKEN BY ANY
             OF THE FOREGOING PARTIES DURING, OR TAKEN AS A CONSEQUENCE OF, INVESTIGATIONS BY EITHER
             SUCH PARTIES OR LAW ENFORCEMENT AUTHORITIES.{' '}
@@ -436,10 +434,10 @@ const TermsPage = () => {
                 including without limitation, any violation of these Terms of Use.
               </li>
             </ul>
-            Without limiting the foregoing, SNX contributors have the right to cooperate fully with
+            Without limiting the foregoing, SY contributors have the right to cooperate fully with
             any law enforcement authorities or court order requesting or directing us to disclose
             the identity or other information of anyone posting any materials on or through the
-            Website. BY USING THE SERVICES, YOU WAIVE AND HOLD HARMLESS SNX AND ITS AFFILIATES,
+            Website. BY USING THE SERVICES, YOU WAIVE AND HOLD HARMLESS SY AND ITS AFFILIATES,
             LICENSEES, AND SERVICE PROVIDERS FROM ANY CLAIMS RESULTING FROM ANY ACTION TAKEN BY ANY
             OF THE FOREGOING PARTIES DURING, OR TAKEN AS A CONSEQUENCE OF, INVESTIGATIONS BY EITHER
             SUCH PARTIES OR LAW ENFORCEMENT AUTHORITIES.{' '}
@@ -501,7 +499,7 @@ const TermsPage = () => {
             Except any open-source software or other material incorporated the Website or the
             Services, the Website and its entire contents, features, and functionality (including
             but not limited to all information, software, text, displays, images, video, and audio,
-            and the design, selection, and arrangement thereof) are owned by SNX, its licensors, or
+            and the design, selection, and arrangement thereof) are owned by SY, its licensors, or
             other providers of such material and are protected by international copyright,
             trademark, patent, trade secret, and other intellectual property or proprietary rights
             laws. The User must not reproduce, distribute, modify, create derivative works of,
@@ -565,7 +563,7 @@ const TermsPage = () => {
               the User’s right to access the Website will stop immediately and the User must, at our
               option, return or destroy any copies of the materials the User has made. No right,
               title, or interest in or to the Website or any content on the Website is transferred
-              to the User, and all rights not expressly granted are reserved by SNX.
+              to the User, and all rights not expressly granted are reserved by SY.
             </Text>
             <Text style={{ marginTop: '8px' }}>
               Notwithstanding anything to the contrary in these Terms of Use, the User may freely
@@ -588,14 +586,14 @@ const TermsPage = () => {
             </Text>
           </Text>
           <Text style={{ marginTop: '8px' }}>
-            Synthetix DAO name, the terms “Synthetix,” “SNX,” and all related names, logos, product
-            and service names, designs, and slogans are trademarks of SNX or its affiliates or
-            licensors. You must not use such marks without the prior written permission of SNX;
+            Terms “SY,” “1SY,” and all related names, logos, product
+            and service names, designs, and slogans are trademarks of 1SY or its affiliates or
+            licensors. You must not use such marks without the prior written permission of 1SY;
             provided, however, the User is hereby granted a limited, revocable, non-transferrable
-            permission and license to use the term “Synthetix” and any related names, logos
-            (excluding the SNX logo), product and service names, designs, and slogans in any way
+            permission and license to use the term “SY” and any related names, logos
+            (excluding the 1SY logo), product and service names, designs, and slogans in any way
             that they desire so long as such usage is not done in a way that: (1) is deceitful,
-            fraudulent, or manipulative; (2) implies any relationship between User and SNX beyond
+            fraudulent, or manipulative; (2) implies any relationship between User and 1SY beyond
             that reasonably typical of a website administrator and its users; or (3) to cause
             confusion in any way to gain crypto-assets of, or personal information about, another
             party other than that intended by the Services, the Protocol, the Interface or any
@@ -622,7 +620,7 @@ const TermsPage = () => {
             education purposes. We do not warrant the accuracy, completeness, or usefulness of this
             information. Any information posted to the Website or through the Services should not be
             construed as an intention to form a contract, and in no case should any information be
-            construed as SNX’s offer to buy, sell, or exchange crypto-assets.{' '}
+            construed as 1SY’s offer to buy, sell, or exchange crypto-assets.{' '}
             <InlineBold>
               Any reliance the User places on such information is strictly at the User’s own risk
             </InlineBold>
@@ -637,13 +635,13 @@ const TermsPage = () => {
             </InlineBold>{' '}
             <Text style={{ marginTop: '8px' }}>
               This Website or the Services may include content provided by third parties, including
-              (without limitation) materials provided by SNX DAO Contributors, bloggers, blockchain
+              (without limitation) materials provided by 1SY Contributors, bloggers, blockchain
               users, other decentralized applications, aggregators, and/or reporting services. All
               statements, alleged facts, and/or opinions expressed in these materials, and all
               articles and responses to questions and other content, other than the content provided
-              through official SNX channel, are solely the opinions and the responsibility of the
+              through official 1SY channel, are solely the opinions and the responsibility of the
               person or entity providing those materials. These materials do not necessarily reflect
-              the opinion of individual SNX contributors or even the factual status of reality. We
+              the opinion of individual 1SY contributors or even the factual status of reality. We
               are not responsible, or liable to the User or any third party, for the content or
               accuracy of any materials provided by any third parties, and User agrees that it bears
               sole and absolute responsibility to evaluate and select any third-party functionality
@@ -678,7 +676,7 @@ const TermsPage = () => {
             </Text>
           </Text>
           <Text style={{ marginTop: '8px' }}>
-            SNX DAO is a developer of open-source software and does not unilaterally offer, operate,
+            SY is a developer of open-source software and does not unilaterally offer, operate,
             or administer the Protocol or a blockchain network. The Services merely attempt to
             assist Participants in more easily participating in the Protocol, DeFi services, or
             blockchain networks generally.
@@ -692,7 +690,7 @@ const TermsPage = () => {
               Trading Commission (<InlineBold>“CFTC”</InlineBold>
               ), and the federal securities laws and its regulations overseen by the U.S. Securities
               and Exchange Commission (<InlineBold>“SEC”</InlineBold>
-              ). The User acknowledges its understanding that SNX is not registered nor licensed
+              ). The User acknowledges its understanding that SY is not registered nor licensed
               with, nor have our Website, Interface, or Services (or the software contained therein)
               been reviewed or evaluated by, the CFTC, SEC, or any other financial or banking
               regulator of any jurisdiction.
@@ -719,14 +717,14 @@ const TermsPage = () => {
               THE USER’S USE OF THE WEBSITE AND THE INTERFACE, THE PROTOCOL, AND ANY OF THE SERVICES
               (AND ANY OF THEIR CONTENT) IS AT THE USER’S SOLE RISK. THE WEBSITE, THE INTERFACE, AND
               THE SERVICES ARE PROVIDED ON AN “AS IS’’ AND “AS AVAILABLE” BASIS. TO THE FULLEST
-              EXTENT LEGALLY PERMISSIBLE, NEITHER WE, NOR ANY PERSON ASSOCIATED WITH SNX, MAKE, AND
+              EXTENT LEGALLY PERMISSIBLE, NEITHER WE, NOR ANY PERSON ASSOCIATED WITH 1SY, MAKE, AND
               WE EXPLICITLY DISCLAIM, ANY AND ALL REPRESENTATIONS OR WARRANTIES OF ANY KIND RELATED
               TO THE WEBSITE, THE INTERFACE, AND THE SERVICES, WHETHER EXPRESS, IMPLIED, OR
               STATUTORY, INCLUDING (WITHOUT LIMITATION) THE WARRANTIES OF MERCHANTABILITY,
-              NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE. NEITHER SNX NOR ANY PERSON
-              ASSOCIATED WITH SNX MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE
+              NON-INFRINGEMENT, AND FITNESS FOR A PARTICULAR PURPOSE. NEITHER 1SY NOR ANY PERSON
+              ASSOCIATED WITH 1SY MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE
               COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE
-              WEBSITE, THE INTERFACE, OR THE SERVICES. SNX AND ANY PERSON ASSOCIATED WITH SNX DO NOT
+              WEBSITE, THE INTERFACE, OR THE SERVICES. 1SY AND ANY PERSON ASSOCIATED WITH 1SY DO NOT
               REPRESENT OR WARRANT THAT: (1) ACCESS TO THE WEBSITE, THE INTERFACE, OR THE SERVICES
               WILL BE CONTINUOUS, UNINTERRUPTED, TIMELY, WITHOUT DELAY, ERROR-FREE, SECURE, OR FREE
               FROM DEFECTS; (2) THAT THE INFORMATION CONTAINED OR PRESENTED ON THE WEBSITE OR VIA
@@ -757,7 +755,7 @@ const TermsPage = () => {
             </Text>
           </Text>
           <Text style={{ marginTop: '8px' }}>
-            TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL SNX DAO, ITS AFFILIATES, OR
+            TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL SY, ITS AFFILIATES, OR
             THEIR LICENSORS, SERVICE PROVIDERS, CONTRIBUTORS, AGENTS, OFFICERS, OR DIRECTORS BE
             LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION
             WITH THE USER’S USE, OR INABILITY TO USE, THE WEBSITE, THE INTERFACE, THE SERVICES, THE
@@ -772,10 +770,10 @@ const TermsPage = () => {
             WHETHER OR NOT A PARTICIPANT, OR ANY FAILURE, EXPLOIT, OR VULNERABILITY OF THE WEBSITE,
             SERVICES, THE PROTOCOL, THE USER’S WEB3 UTILITIES, OR THE UNDERLYING BLOCKCHAINS OR
             RELATED BLOCKCHAIN FUNCTIONALITIES. TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT
-            WILL THE COLLECTIVE LIABILITY OF SNX AND ITS SUBSIDIARIES AND AFFILIATES, AND THEIR
+            WILL THE COLLECTIVE LIABILITY OF 1SY AND ITS SUBSIDIARIES AND AFFILIATES, AND THEIR
             LICENSORS, SERVICE PROVIDERS, CONTRIBUTORS, AGENTS, OFFICERS, AND DIRECTORS, TO ANY
             PARTY (REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, OR OTHERWISE) EXCEED
-            THE GREATER OF $100 OR THE AMOUNT YOU HAVE PAID DIRECTLY TO SNX FOR THE APPLICABLE
+            THE GREATER OF $100 OR THE AMOUNT YOU HAVE PAID DIRECTLY TO 1SY FOR THE APPLICABLE
             CONTENT OR SERVICES IN THE LAST SIX MONTHS OUT OF WHICH LIABILITY AROSE.
             <Text style={{ marginTop: '8px' }}>
               THE FOREGOING DOES NOT AFFECT ANY LIABILITY THAT CANNOT BE EXCLUDED OR LIMITED UNDER
@@ -855,7 +853,7 @@ const TermsPage = () => {
             individual licensed and competent in the appropriate area before the User makes any
             financial, legal, or other decisions where such should be considered prudent. The User
             acknowledges and agrees that, to the fullest extent permissible by law, it has not
-            relied on SNX, the content on the Website, the Interface, or the Services for any
+            relied on 1SY, the content on the Website, the Interface, or the Services for any
             professional advice related to its financial or legal behaviors.
           </Text>
         </Box>
@@ -871,7 +869,7 @@ const TermsPage = () => {
           <Text style={{ marginTop: '8px' }}>
             These Terms of Use, and the provision of the Website and the Services, are not intended
             to create any fiduciary duties between us and the User or any third party. Individual
-            SNX DAO contributors never take possession, custody, control, ownership, or management
+            SY contributors never take possession, custody, control, ownership, or management
             of any crypto-assets or other property transmitted via the Interface. To the fullest
             extent permissible by law, the User agrees that neither the User’s use of the Website or
             the Services causes us or any Participant to owe fiduciary duties or liabilities to the
@@ -918,7 +916,7 @@ const TermsPage = () => {
             </Text>
           </Text>
           <Text style={{ marginTop: '8px' }}>
-            The User agrees to defend, indemnify, and hold harmless SNX, its affiliates, licensors,
+            The User agrees to defend, indemnify, and hold harmless 1SY, its affiliates, licensors,
             and service providers, and its and their respective officers, directors, contributors,
             contractors, agents, licensors, suppliers, successors, and assigns from and against any
             claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees
@@ -942,7 +940,7 @@ const TermsPage = () => {
             </Text>
           </Text>
           <Text style={{ marginTop: '8px' }}>
-            The User agrees to defend, indemnify, and hold harmless SNX, its affiliates, licensors,
+            The User agrees to defend, indemnify, and hold harmless 1SY, its affiliates, licensors,
             and service providers, and its and their respective officers, directors, contributors,
             contractors, agents, licensors, suppliers, successors, and assigns from and against any
             claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees
@@ -1010,9 +1008,9 @@ const TermsPage = () => {
             </Text>
           </Text>
           <Text style={{ marginTop: '8px' }}>
-            No waiver by SNX of any term or condition set out in these Terms of Use shall be deemed
+            No waiver by 1SY of any term or condition set out in these Terms of Use shall be deemed
             a further or continuing waiver of such term or condition or a waiver of any other term
-            or condition, and any failure of SNX to assert a right or provision under these Terms of
+            or condition, and any failure of 1SY to assert a right or provision under these Terms of
             Use shall not constitute a waiver of such right or provision.{' '}
             <Text style={{ marginTop: '8px' }}>
               If any provision of these Terms of Use is held by a court or other tribunal of
@@ -1033,7 +1031,7 @@ const TermsPage = () => {
           </Text>
           <Text style={{ marginTop: '12px' }}>
             These Terms of Use, the Privacy Policy, and any other document incorporated by reference
-            herein constitute the sole and entire agreement between the User and SNX regarding the
+            herein constitute the sole and entire agreement between the User and 1SY regarding the
             Website and supersede all prior and contemporaneous understandings, agreements,
             representations, and warranties, both written and oral, regarding the Website.
           </Text>
