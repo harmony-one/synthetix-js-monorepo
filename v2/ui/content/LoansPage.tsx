@@ -31,21 +31,21 @@ const LoansPage: FC<LoansPageProps> = () => {
       <Head>
         <title>{t('loans.page-title')}</title>
       </Head>
-      <Alert variant="solid" my={4}>
-        <InfoIcon color="#2ED9FF" width="16px" height="16px" mr={2} />
-        <Text color="white" fontSize="16px" fontFamily="heading">
-          Parameter Changes for Synthetix Loans{' '}
-          <Link
-            href="https://blog.synthetix.io/parameter-changes-for-synthetix-loans/"
-            isExternal
-            target="_blank"
-            color="cyan.500"
-            textDecoration="underline"
-          >
-            Read our blog for more details.
-          </Link>
-        </Text>
-      </Alert>
+      {/*<Alert variant="solid" my={4}>*/}
+      {/*  <InfoIcon color="#2ED9FF" width="16px" height="16px" mr={2} />*/}
+      {/*  <Text color="white" fontSize="16px" fontFamily="heading">*/}
+      {/*    Parameter Changes for Synthetix Loans{' '}*/}
+      {/*    <Link*/}
+      {/*      href="https://blog.synthetix.io/parameter-changes-for-synthetix-loans/"*/}
+      {/*      isExternal*/}
+      {/*      target="_blank"*/}
+      {/*      color="cyan.500"*/}
+      {/*      textDecoration="underline"*/}
+      {/*    >*/}
+      {/*      Read our blog for more details.*/}
+      {/*    </Link>*/}
+      {/*  </Text>*/}
+      {/*</Alert>*/}
       <StatsSection>
         <StatBox
           title={t('common.stat-box.staked-value')}
