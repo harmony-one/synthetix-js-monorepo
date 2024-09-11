@@ -14,7 +14,7 @@ export const Header: FC = () => {
   } = Connector.useContainer();
 
   const [localNetwork, setLocalNetwork] = useState<NetworkId>(
-    network?.id ? (network.id as NetworkId) : (NetworkIdByName.mainnet as NetworkId)
+    network?.id ? (network.id as NetworkId) : (NetworkIdByName.harmony as NetworkId)
   );
 
   useEffect(() => {
