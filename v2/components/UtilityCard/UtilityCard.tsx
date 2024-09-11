@@ -27,7 +27,10 @@ export const UtilityCard = ({ Icon, link, title, description, ...props }: Utilit
       {...props}
     >
       <Icon />
-      <LinkOverlay href={link} isExternal>
+      <LinkOverlay
+        // href={link}
+        isExternal
+      >
         <Text fontFamily="heading" fontSize="sm" lineHeight="md" fontWeight="700" mt={1}>
           {title}
         </Text>
