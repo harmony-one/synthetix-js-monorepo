@@ -117,29 +117,29 @@ const V2Home = () => {
           </Container>
         </Box>
         {/* sUSD Utilities Section */}
-        <Box width="100%">
-          <Box width="100%" borderTopWidth="1px" borderTopColor="gray.900" pt={8} bg="navy.900">
-            <Container maxW="1200px" bg="transparent" mt={2}>
-              <Box>
-                <Text
-                  variant="heading"
-                  color="whiteAlpha.900"
-                  fontSize="md"
-                  lineHeight="lg"
-                  fontWeight="700"
-                >
-                  {t('staking-v2.home.utilities.title')}
-                </Text>
-                <Text variant="heading" color="whiteAlpha.700" fontSize="sm" lineHeight="lg">
-                  {t('staking-v2.home.utilities.description')}
-                </Text>
-              </Box>
-            </Container>
-          </Box>
-          <Box pb={10} width="100%" px={[2, 0, 0, 0]} bg="navy.900">
-            <Integrators />
-          </Box>
-        </Box>
+        {/*<Box width="100%">*/}
+        {/*  <Box width="100%" borderTopWidth="1px" borderTopColor="gray.900" pt={8} bg="navy.900">*/}
+        {/*    <Container maxW="1200px" bg="transparent" mt={2}>*/}
+        {/*      <Box>*/}
+        {/*        <Text*/}
+        {/*          variant="heading"*/}
+        {/*          color="whiteAlpha.900"*/}
+        {/*          fontSize="md"*/}
+        {/*          lineHeight="lg"*/}
+        {/*          fontWeight="700"*/}
+        {/*        >*/}
+        {/*          {t('staking-v2.home.utilities.title')}*/}
+        {/*        </Text>*/}
+        {/*        <Text variant="heading" color="whiteAlpha.700" fontSize="sm" lineHeight="lg">*/}
+        {/*          {t('staking-v2.home.utilities.description')}*/}
+        {/*        </Text>*/}
+        {/*      </Box>*/}
+        {/*    </Container>*/}
+        {/*  </Box>*/}
+        {/*  <Box pb={10} width="100%" px={[2, 0, 0, 0]} bg="navy.900">*/}
+        {/*    <Integrators />*/}
+        {/*  </Box>*/}
+        {/*</Box>*/}
       </Flex>
     </>
   );
