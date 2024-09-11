@@ -84,15 +84,15 @@ export const TermsModal = ({ defaultOpen = true }: TermsModalProps) => {
             <UnorderedList>
               <Text fontSize="14px">
                 <ListItem>
-                  <Link
-                    href="https://synthetix.io/"
-                    target="_blank"
-                    color="cyan.500"
-                    _focusVisible={{ outline: 'none' }}
-                  >
-                    SY{' '}
-                  </Link>
-                  is a blockchain-based decentralized finance project. You are participating at your
+                  {/*<Link*/}
+                  {/*  href="https://synthetix.io/"*/}
+                  {/*  target="_blank"*/}
+                  {/*  color="cyan.500"*/}
+                  {/*  _focusVisible={{ outline: 'none' }}*/}
+                  {/*>*/}
+                  {/*  SY{' '}*/}
+                  {/*</Link>*/}
+                  SY is a blockchain-based decentralized finance project. You are participating at your
                   own risk.
                 </ListItem>
                 <ListItem mt={2}>
@@ -106,50 +106,49 @@ export const TermsModal = ({ defaultOpen = true }: TermsModalProps) => {
                   and maintain the protocol.
                 </ListItem>
                 <ListItem mt={2}>
-                  SY DAO does not unilaterally offer, maintain, operate, administer, or
-                  control any trading interfaces. The only user interfaces maintained by SY
-                  DAO are the governance and staking interfaces herein.
+                  Operators of sy.country does not unilaterally offer, maintain, operate, administer, or
+                  control any trading interfaces. The only user interfaces maintained by operators of sy.country are the governance and staking interfaces herein.
                 </ListItem>
                 <ListItem mt={2}>
-                  You can participate in the governance process by staking SNX tokens in accordance
+                  You can participate in the governance process by staking 1SY tokens in accordance
                   with the rules and parameters summarized{' '}
-                  <Link
-                    href="https://governance.synthetix.io/"
-                    target="_blank"
-                    color="cyan.500"
-                    _focusVisible={{ outline: 'none' }}
-                  >
-                    here
-                  </Link>
-                  , and/or joining the{' '}
-                  <Link
-                    color="cyan.500"
-                    target="_blank"
-                    href="https://discord.com/invite/ptfNSByB8P"
-                    _focusVisible={{ outline: 'none' }}
-                  >
-                    SY Discord
-                  </Link>{' '}
-                  and contributing to the conversation.
+                  {/*<Link*/}
+                  {/*  href="https://governance.synthetix.io/"*/}
+                  {/*  target="_blank"*/}
+                  {/*  color="cyan.500"*/}
+                  {/*  _focusVisible={{ outline: 'none' }}*/}
+                  {/*>*/}
+                  {/*  here*/}
+                  {/*</Link>*/}
+                  here, and/or joining the{' '}
+                  {/*<Link*/}
+                  {/*  color="cyan.500"*/}
+                  {/*  target="_blank"*/}
+                  {/*  href="https://discord.com/invite/ptfNSByB8P"*/}
+                  {/*  _focusVisible={{ outline: 'none' }}*/}
+                  {/*>*/}
+                  {/*  SY Discord*/}
+                  {/*</Link>{' '}*/}
+                  SY Discord and contributing to the conversation.
                 </ListItem>
                 <ListItem mt={2}>
-                  The rules and parameters associated with the SY protocol and SY DAO
+                  The rules and parameters associated with the SY protocol and operators of sy.country
                   governance are subject to change at any time.
                 </ListItem>
-                <ListItem mt={2}>
-                  Your use of SY is conditioned upon your acceptance to be bound by the
-                  SY Term of Use, which can be found{' '}
-                  <Link
-                    as={ReactRouterLink}
-                    to="/terms"
-                    target="_blank"
-                    color="cyan.500"
-                    _focusVisible={{ outline: 'none' }}
-                  >
-                    here
-                  </Link>
-                  .
-                </ListItem>
+                {/*<ListItem mt={2}>*/}
+                {/*  Your use of SY is conditioned upon your acceptance to be bound by the*/}
+                {/*  SY Term of Use, which can be found{' '}*/}
+                {/*  <Link*/}
+                {/*    as={ReactRouterLink}*/}
+                {/*    to="/terms"*/}
+                {/*    target="_blank"*/}
+                {/*    color="cyan.500"*/}
+                {/*    _focusVisible={{ outline: 'none' }}*/}
+                {/*  >*/}
+                {/*    here*/}
+                {/*  </Link>*/}
+                {/*  .*/}
+                {/*</ListItem>*/}
                 <ListItem mt={2}>
                   The laws that apply to your use of SY may vary based upon the jurisdiction
                   in which you are located. We strongly encourage you to speak with legal counsel in
@@ -161,18 +160,18 @@ export const TermsModal = ({ defaultOpen = true }: TermsModalProps) => {
                   basis.
                 </ListItem>
                 <ListItem mt={2}>
-                  You hereby release all present and future claims against SY DAO related to
-                  your use of the protocol, the SNX token, SNX DAO governance, and any other facet
+                  You hereby release all present and future claims against operators of sy.country related to
+                  your use of the protocol, the 1SY token, and any other facet
                   of the protocol.
                 </ListItem>
                 <ListItem mt={2}>
-                  You agree to indemnify and hold harmless SNX DAO and its affiliates for any costs
+                  You agree to indemnify and hold harmless operators of sy.country and its affiliates for any costs
                   arising out of or relating to your use of the SY protocol.
                 </ListItem>
                 <ListItem mt={2}>
                   You are not accessing the protocol from Burma (Myanmar), Cuba, Iran, Sudan, Syria,
                   the Western Balkans, Belarus, Côte d’Ivoire, Democratic Republic of the Congo,
-                  Iraq, Lebanon, Liberia, Libya, North Korea, Russia, certain sanctioned areas of
+                  Iraq, Lebanon, Liberia, Libya, North Korea, Russia, United States, certain sanctioned areas of
                   Ukraine, Somalia, Venezuela, Yemen, or Zimbabwe (collectively, “Prohibited
                   Jurisdictions”), or any other jurisdiction listed as a Specially Designated
                   National by the United States Office of Foreign Asset Control (“OFAC”).
